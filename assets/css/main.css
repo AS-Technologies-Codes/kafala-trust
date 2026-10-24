@@ -124,6 +124,8 @@
   --primary-seven-body: #fcf8ed;
   
   --primary-eight: #ED5A2F;
+  --secondary-blue: #0e76bc;
+  --secondary-blue-light: #25aae1;
 
 }
 
@@ -1958,7 +1960,7 @@ div {
 
 .btn--tertiary {
   padding: 13px 24px;
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: var(--secondary-blue);
   color: var(--white);
   position: relative;
   font-weight: 800;
@@ -1975,7 +1977,7 @@ div {
   width: 50%;
   height: 100%;
   border-radius: inherit;
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: var(--secondary-blue);
   -webkit-transition: var(--transition);
   transition: var(--transition);
   z-index: -1;
@@ -1986,7 +1988,7 @@ div {
 }
 .btn--tertiary:hover {
   color: var(--black);
-  background-color: var(--base-color);
+  background-color: var(--secondary-blue-light);
 }
 .btn--tertiary:hover::before, .btn--tertiary:hover::after {
   width: 0%;
@@ -4730,7 +4732,7 @@ div {
 }
 .footer .footer__support a {
   border-radius: 66px;
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--secondary-blue);
   -webkit-backdrop-filter: blur(12.5px);
           backdrop-filter: blur(12.5px);
   padding: 37px 24px 37px 24px;
@@ -5030,6 +5032,10 @@ div {
 .footer-two .footer-two__widget .footer-two__widget-logo {
   margin-bottom: 30px;
 }
+.footer-two .footer-two__widget .footer-two__widget-logo a img {
+  max-width: 200px;
+}
+
 .footer-two .footer-two__widget p {
   color: #949d9c;
   font-weight: 500;
@@ -5130,7 +5136,6 @@ div {
 }
 .footer-two .footer-two__widget .footer-two__widget-content--contact a {
   gap: 16px;
-  text-transform: lowercase;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -15453,7 +15458,7 @@ div {
   padding: 40px 40px;
   border-radius: 11px;
   border: 1px dashed rgba(255, 255, 255, 0.58);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--secondary-blue);
   -webkit-box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.06);
           box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.06);
   -webkit-transition: var(--transition);
