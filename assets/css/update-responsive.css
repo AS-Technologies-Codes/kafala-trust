@@ -1,0 +1,1831 @@
+
+@media (min-width: 1700px) and (max-width: 1920px) {
+}
+@media (min-width: 1700px) and (max-width: 1800px) {
+
+     
+
+
+     /*============ Home Six Start  ============*/
+     /* Bannar Css  */
+     .banner-six-area {
+          padding: 280px 0 0;
+     }
+     .banner-six-title {
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 1.11;
+          color: var(--primary-six-title);
+          margin-bottom: 0;
+     }
+     .banner-six-circle {
+          margin-left: -160px;
+     }
+     /* Home Six Differece Css  */
+     .difference-six-bottom {
+          right: 1%;
+     }
+     .differece-six-thumb img {
+          max-width: 280px;
+          height: 300px;
+     }
+     /*============ Home Six End  ============*/
+
+
+
+
+
+
+     /*============ Home Seven Start  ============*/
+     /* Home Seven Header Css  */
+     .header-seven-area {
+          padding: 0 0 0 40px;
+     }
+     .header-seven-navbar-space {
+          margin-right: 50px !important;
+     }
+     .header-seven-btn {
+          padding: 24px 39px;
+     }
+
+     /* Home Seven Bannar Css  */
+     .banner-seven-title {
+          font-size: 152px;
+     }
+     /*============ Home Seven End  ============*/
+
+
+
+
+
+     /*============ Home Eight Start  ============*/
+     /* Bannner Css */
+     .banner-eight-title {
+          font-size: 80px;
+     }
+     .banner-eight-wrap {
+          padding: 26px 10px 26px 23px;
+     }
+     .banner-eight-content p {
+          font-size: 15px;
+     }
+
+
+
+
+     /*============ Home Eight End  ============*/
+
+
+}
+@media (min-width: 1600px) and (max-width: 1699px) {
+     /*============ Home Six Start  ============*/
+     /* Home Six Bannar Css  */
+     .banner-six-area {
+          padding: 280px 0 0;
+     }
+     .banner-six-title {
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 1.11;
+          color: var(--primary-six-title);
+          margin-bottom: 0;
+     }
+     .banner-six-circle {
+          margin-left: -160px;
+     }
+     /* Home Six Differece Css  */
+     .difference-six-bottom {
+          right: 1%;
+     }
+     .differece-six-thumb img {
+          max-width: 280px;
+          height: 300px;
+     }
+     /*============ Home Six End  ============*/
+
+
+
+     /*============ Home Seven Start  ============*/
+     /* Home Seven Header Css  */
+     .header-seven-area {
+          padding: 0 0 0 30px;
+     }
+     .header-seven-navbar-space {
+          margin-right: 40px !important;
+     }
+     .header-seven-btn {
+          padding: 24px 34px;
+     }
+    /* Home Seven Bannar Css  */
+     .banner-seven-area {
+        padding: 70px 0 120px 165px;
+     }
+     .banner-seven-title {
+          font-size: 152px;
+     }
+     /* Home Seven childhood Css  */
+     .childhood-seven-bg-shape-2 {
+          bottom: -45px;
+     }
+     .cause-seven-navigation button {
+          left: -90px;
+     }
+     .cause-seven-navigation button.next-cause {
+          left: auto;
+          right: -90px;
+     }
+     /*============ Home Seven End  ============*/
+    
+
+
+     /*============ Home Eight Start  ============*/
+     /* Banner css */
+     .banner-eight-title {
+          font-size: 75px;
+     }
+     .banner-eight-content p {
+          font-size: 14px;
+     }
+     .banner-eight-wrap {
+          gap: 16px;
+     }
+     .banner-eight-review-team p {
+          font-size: 14px;
+     }
+
+
+
+     /*============ Home Eight End  ============*/
+
+
+
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+     
+     /* Home Six Header Css  */
+     .header-six-area {
+          padding: 0 0;
+     }
+
+     /* Home Six Banner Css  */
+     .banner-six-area {
+          padding: 280px 0 0;
+     }
+     .banner-six-title {
+          font-size: 70px;
+     }
+     .banner-six-conter-item h2 {
+          font-size: 38px;
+     }
+     .banner-six-conter-wrap {
+          gap: 26px;
+     }
+     .banner-six-circle {
+          margin-bottom: -80px;
+          margin-left: -210px;
+     }
+     .banner-six-slide-dot {
+          bottom: 70px !important;
+     }
+
+     /* Home Six Differece Css  */
+     .difference-six-bottom {
+          right: 1%;
+     }
+     .differece-six-thumb img {
+          max-width: 240px;
+          height: 260px;
+     }
+
+
+     /*============ Home Seven Start  ============*/
+     /* Home Seven Header Css  */
+     .header-seven-area {
+          padding: 0 0 0 20px;
+     }
+     .header-seven-navbar-space {
+          margin-right: 20px !important;
+     }
+     .header-seven-btn {
+          padding: 24px 34px;
+     }
+     .header-seven-area .contact-btn {
+          display: none;
+     }
+     /* Home Seven Bannar Css  */
+     .banner-seven-area {
+          padding: 70px 0 120px 50px;
+     }
+     .banner-seven-title {
+          font-size: 130px;
+     }
+     /* Home Seven Childhood Css  */
+     .childhood-seven-wrapper {
+          height: 450px;
+     }
+     .childhood-seven-button a {
+          font-size: 25px;
+     }
+     .childhood-seven-bg-shape-2 {
+          bottom: -39px;
+     }
+     .counter-seven-heading {
+          font-size: 200px;
+     }
+     .contact-seven-area {
+          margin: 0 10px 0;
+     }
+     .contact-seven-area .contact__content {
+          padding: 120px 50px;
+     }
+     /*============ Home Seven End  ============*/
+
+
+     /*============ Home Eight Start  ============*/
+     /* Header Css */
+     .header-eight-area {
+          border-radius: 0 !important;
+          margin: 0;
+          padding-inline-start: 15px;
+          padding-inline-end: 15px;
+     }
+     .header-eight-navbar-space {
+          margin-inline-end: 0;
+     }
+     /* banner css */
+     .banner-eight-title {
+          font-size: 63px;
+     }
+     .banner-eight-paragraph {
+          font-size: 14px;
+     }
+     .banner-eight-dot {
+          bottom: auto !important;
+     }
+     .banner-eight-content h4 {
+          font-size: 34px;
+     }
+     .banner-eight-review-team p {
+          font-size: 16px;
+     }
+     .banner-eight-content p {
+          font-size: 16px;
+     }
+     .banner-eight-wrap {
+          gap: 14px;
+          flex-wrap: wrap;
+     }
+     .countdown-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+
+
+     .footer-eight-area {
+          margin: 0;
+          margin-top: 0;
+          border-radius: 0;
+     }
+
+     /*============ Home Eight End  ============*/
+
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+     /* Home Six topbar Css  */
+     .topbar-six-area {
+          padding: 9px 10px;
+     }
+     .topbar-six-right {
+          display: none !important;
+     }
+     /* Home Six Header Css  */
+     .header-six-area {
+          padding: 0 0;
+     }
+     .header-six-area .navbar__options .header-six-navbar-space {
+          margin-right: 0;
+     }
+     .header-six-area .navbar__item a {
+          padding: 42px 8px;
+     }
+     /* Home Six Banner Css  */
+     .banner-six-area {
+          padding: 280px 0 0;
+     }
+     .banner-six-bg-shape {
+          display: none;
+     }
+     .banner-six-wrapper {
+          flex-wrap: wrap;
+          row-gap: 40px;
+     }
+     .banner-six-content {
+          max-width: 600px;
+          width: 100%;
+     }
+     .banner-six-conter-item h2 {
+          font-size: 65px;
+          margin-bottom: 0;
+     }
+     .banner-six-slide-dot {
+          bottom: auto !important;
+     }
+     /* Home Six About Css  */
+     .about-six-wrapper {
+          margin-left: -50px;
+     }
+     .about-six-blockquote-content p {
+          font-size: 14px;
+     }
+     /* Home Six Team Css  */
+     .team-six-title {
+          font-size: 20px;
+     }
+     .team-six-button-left {
+          margin-right: 17px;
+          padding-right: 17px;
+     }
+     /* Home Six Differece Css  */
+     .difference-six-bottom {
+          right: 1%;
+     }
+     .differece-six-thumb img {
+          max-width: 200px;
+          height: 220px;
+     }
+     .difference-six-bg-shape {
+          left: 0;
+     }
+     /* Home Six Cause Css  */
+     .cause-six-wrapper .content h6 {
+          font-size: 20px;
+     }
+     .cause-six-area .thumb a {
+          display: block;
+     }
+     .cause-six-area .thumb img {
+          width: 100%;
+     }
+     /* Home Six Blog Css  */
+     .blog-six-area .blog__single-content h5 {
+          font-size: 20px;
+     }
+     .blog-six-thumb {
+          width: 100%;
+     }
+     .blog-six-thumb a {
+          display: block;
+     }
+     .blog-six-thumb img {
+          width: 100%;
+     }
+     /* Home Six Section Css  */
+     .section-six-title {
+          font-size: 46px;
+     }
+     /*============ Home Seven Start  ============*/
+     /* Home Seven Header Css  */
+     .header-seven-area {
+          padding: 0 20px 0 20px;
+     }
+     .header-seven-navbar-space {
+          margin-right: 90px !important;
+     }
+     .header-seven-btn {
+          padding: 24px 34px;
+     }
+     .header-seven-area .contact-btn {
+          display: none;
+     }
+     .header-seven-sidenav-box {
+          display: none !important;
+     }
+     /* Home Seven Bannar Css  */
+     .banner-seven-area {
+          padding: 70px 0 120px 0;
+     }
+     .banner-seven-title {
+          font-size: 126px;
+     }
+     /* Home Six Differece Css  */
+     .childhood-seven-wrapper {
+          height: 380px;
+     }
+     .childhood-seven-button a {
+          font-size: 21px;
+     }
+     .childhood-seven-paragraph {
+          font-size: 15px;
+     }
+     .childhood-seven-bg-shape-2 {
+          bottom: -31px;
+     }
+     .counter-seven-heading {
+          font-size: 180px;
+     }
+     .contact-seven-area {
+          margin: 0 0 0;
+     }
+     .contact-seven-area .contact__content {
+          padding: 40px 30px;
+     }
+     .contact-seven-area .section-seven-title {
+          font-size: 62px;
+     }
+     .contact-seven-area .section-seven-paragraph {
+          font-size: 16px;
+     }
+     .footer-seven-col-2 {
+          margin-inline-start: -100px;
+     }
+     .footer-seven-col-3 {
+          margin-left: -50px;
+     }
+     .footer-seven-col-4 {
+          margin-inline-start: -42px;
+     }
+     .about-seven-title {
+          font-size: 55px;
+     }
+     /*============ Home Eight Start  ============*/
+     /* Header Css */
+     .header-eight-area {
+          border-radius: 0 !important;
+          margin: 0;
+          padding-inline-start: 15px;
+          padding-inline-end: 15px;
+     }
+     .header-eight-navbar-space {
+          margin-inline-end: 0;
+     }
+     .header-eight-area .contact-btn {
+          display: none;
+     }
+     /* Banner Css */
+     .banner-eight-title {
+          font-size: 55px;
+     }
+     .banner-eight-dot {
+          bottom: auto !important;
+     }
+     .banner-eight-wrap {
+          gap: 12px;
+          flex-wrap: wrap;
+     }
+     .banner-eight-review-team {
+          gap: 12px;
+          flex-wrap: wrap;
+     }
+     /* About Css */
+     .about-eight-center {
+          margin-inline-start: 0;
+     }
+     .about-eight-thumb-shape {
+          right: 0;
+     }
+     /* Service Css */
+     .service-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .service-eight-paragraph {
+          font-size: 12px;
+     }
+     /* Event Css */
+     .event-eight-button {
+          gap: 40px;
+     }
+     .event-eight-button::before {
+          display: none;
+     }
+     /* Countdown Css */
+     .countdown-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .maquee-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+
+     .faq-eight-accordion-button {
+          font-size: 19px;
+     }
+     .faq-eight-right {
+          margin-left: 20px;
+     }
+     /* Blog css */
+     .blog-eight-wrap {
+          flex-wrap: wrap;
+          max-width: 50%;
+          padding-bottom: 30px;
+     }
+     .blog-eight-content {
+          padding-left: 0;
+     }
+     .blog-eight-thumb {
+          width: 100%;
+          opacity: 1;
+          visibility: visible;
+          display: block;
+     }
+     .blog-eight-thumb a img {
+          width: 100%;
+          height: 300px;
+     }
+     .blog-eight-wrap.active .blog-eight-content {
+          padding-left: inherit;
+     }
+
+     .footer-eight-area {
+          margin: 0;
+          margin-top: 0;
+          border-radius: 0;
+     }
+     .footer-eight-top-wrap h4 {
+          font-size: 23px;
+     }
+     .footer-eight-top-info.call {
+          margin-left: 15px;
+     }
+     .footer-eight-top-info.gamil {
+          margin-left: 20px;
+     }
+
+
+
+
+
+     .section-eight-title {
+          font-size: 51px;
+     }
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+     
+     /* Home Six topbar Css  */
+     .topbar-six-area {
+          padding: 9px 10px;
+     }
+     .topbar-six-right {
+          display: none !important;
+     }
+     /* Home Six Header Css  */
+     .header-six-area {
+          padding: 0 0;
+     }
+     /* Home Six Banner Css  */
+     .banner-six-area {
+          padding: 230px 0 0;
+     }
+     .banner-six-wrapper {
+          flex-wrap: wrap;
+          row-gap: 20px;
+     }
+     .banner-six-title {
+          font-size: 80px;
+     }
+     .banner-six-slide-bg {
+          height: 450px;
+     }
+     .banner-six-social {
+          top: 35%;
+     }
+     .banner-six-slide-dot {
+          bottom: 80px !important;
+     }
+     /* Home Six Feature Css  */
+     .feature-six-wrapper {
+          flex-wrap: wrap;
+     }
+     /* Home Six Events Css  */
+     .events-six-thumb img {
+          max-width: 320px;
+     }
+     .events-six-content-top p {
+          font-size: 16px;
+     }
+     /* Home Six Difference Css  */
+     .difference-six-area {
+          padding-bottom: 60px;
+     }
+     .difference-six-area::before {
+          width: 100%;
+          border-radius: 0;
+     }
+     .difference-six-bottom {
+          position: static;
+          transform: inherit;
+     }
+     .difference-six-wrapper {
+          padding: 120px 0 20px;
+     }
+     /* Home Six Cause Css  */
+     .cause-six-area .thumb a {
+          display: block;
+     }
+     .cause-six-area .thumb img {
+          width: 100%;
+     }
+     /* Home Six Testimonial Css  */
+     .testimonial-six-area .section-six-title {
+          font-size: 42px;
+     }
+     /* Home Six Brand Css  */
+     .brand-six-wrapper {
+          margin-bottom: 30px;
+     }
+     /* Home Six Blog Css  */
+     .blog-six-thumb {
+          width: 100%;
+     }
+     .blog-six-thumb a {
+          display: block;
+     }
+     .blog-six-thumb img {
+          width: 100%;
+     }
+
+     /*============ Home Seven Start  ============*/
+
+     /* Home Seven Header Css  */
+     .header-seven-area .open-offcanvas-nav {
+          align-items: center;
+          justify-content: center;
+     }
+     .banner-seven-area {
+          padding: 70px 0 120px 90px;
+     }
+     .banner-seven-bg-shape-2 {
+          display: none;
+     }
+     .banner-seven-wrapper {
+          margin-bottom: 40px;
+     }
+     .about-seven-wrapper {
+          margin-left: 0;
+          padding: 80px 30px 80px;
+     }
+     .childhood-top-descrip {
+          margin-left: 0;
+          margin-bottom: 50px;
+     }
+     .childhood-seven-bg-shape-2 {
+          position: absolute;
+          bottom: -26px;
+          left: 0;
+          z-index: -1;
+     }
+     .counter-seven-bg-shape-1 {
+          top: -23%;
+     }
+     .counter-seven-wrapper {
+          margin-bottom: 60px;
+     }
+     .counter-seven-heading {
+          font-size: 149px;
+     }
+     .contact-seven-area .contact__content {
+          padding: 120px 40px;
+     }
+     .contact-seven-wrap {
+          padding: 0 30px;
+     }
+     .testimonial-seven-paragraph {
+          font-size: 26px;
+     }
+     .team-seven-thumb img {
+          mix-blend-mode: luminosity;
+          width: 100%;
+     }
+     .testimonial-seven-icon span {
+          width: 60px;
+          height: 60px;
+     }
+     .testimonial-seven-title {
+          margin-bottom: 14px;
+          padding-bottom: 10px;
+     }
+     .blog-seven-title {
+          font-size: 36px;
+     }
+     .footer-seven-top-content h2 {
+          font-size: 140px;
+     }
+     .footer-seven-area .footer-two__widget .footer-two__widget-intro {
+          text-align: left !important;
+     }
+     .footer-seven-area .footer-two__widget .social {
+          justify-content: left !important;
+     }
+     .section-seven-title {
+          line-height: 1;
+     }
+
+
+     /*============ Home Eight Start  ============*/
+     /* Header Css */
+     .header-eight-area {
+          border-radius: 0 !important;
+          margin: 0;
+          padding-inline-start: 15px;
+          padding-inline-end: 15px;
+     }
+     .header-eight-navbar-space {
+          margin-inline-end: 0;
+     }
+     .header-eight-area .contact-btn {
+          display: none;
+     }
+     /* Banner Css */
+     .banner-six-slide {
+          margin-top: 20px;
+     }
+     .banner-six-slide-dot {
+          bottom: auto !important;
+     }
+     /* About Css */
+     .about-eight-thumb {
+          margin-bottom: 120px;
+     }
+     .about-eight-center {
+          margin-inline-start: 0;
+     }
+     .about-eight-button {
+          margin-inline-start: 0;
+     }
+     /* Service Css */
+     .service-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .service-eight-thumb > a {
+          display: block;
+     }
+     .service-eight-thumb img {
+          width: 100%;
+     }
+     /* Countdown Css */
+     .countdown-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+
+     .maquee-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+
+     .faq-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .faq-eight-right {
+          margin-left: 0;
+          margin-top: 30px;
+     }
+
+
+     /* Blog css */
+     .blog-eight-wrap {
+          flex-wrap: wrap;
+          max-width: 50%;
+          padding-bottom: 30px;
+     }
+     .blog-eight-thumb {
+          width: 100%;
+          opacity: 1;
+          visibility: visible;
+          display: block;
+     }
+     .blog-eight-content {
+          padding-left: 0;
+     }
+     .blog-eight-thumb a img {
+          width: 100%;
+          height: 300px;
+     }
+     .blog-eight-wrap.active .blog-eight-content {
+          padding-left: 0;
+     }
+     .blog-eight-paragraph {
+          font-size: 15px;
+     }
+     .instagram-eight-wrapper {
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+
+     .footer-eight-area {
+          margin: 0;
+          margin-top: 0;
+          border-radius: 0;
+     }
+     .footer-eight-top-wrap {
+          margin-bottom: 30px;
+     }
+     .footer-eight-top-info.call {
+          margin-left: 0;
+     }
+     .footer-eight-top-info.gamil {
+          margin-left: 0;
+     }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+     /* Home Six Header Css  */
+     .header-six-area {
+          padding: 0 0;
+          top: 0 !important;
+     }
+     .header-six-area .contact-btn {
+          display: none;
+     }
+     /* Home Six Banner Css  */
+     .banner-six-area {
+          padding: 180px 0 0;
+     }
+     .banner-six-bg-shape {
+          display: none;
+     }
+     .banner-six-slide-bg {
+          height: 425px;
+     }
+     .banner-six-wrapper {
+          flex-wrap: wrap;
+          row-gap: 30px;
+     }
+     .banner-six-circle {
+          display: none;
+     }
+     .banner-six-title {
+          font-size: 85px;
+     }
+     .banner-six-slide-dot {
+          right: 85px;
+          bottom: 80px !important;
+     }
+
+     /* Home Six About Css  */
+     .about-six-circle {
+          display: inline-flex;
+     }
+     .about-six-thumb {
+          margin-bottom: 30px;
+     }
+
+
+     /* Home Six Events Css  */
+     .events-six-wrapper {
+          flex-wrap: wrap;
+     }
+     .events-six-thumb {
+          width: 100%;
+     }
+     .events-six-thumb img {
+          max-width: 100%;
+          width: 100%;
+     }
+
+
+     /* Home Six Difference Css  */
+     .difference-six-area::before {
+          width: 100%;
+          border-radius: 0;
+     }
+     .difference-six-bottom {
+          position: static;
+          transform: inherit;
+     }
+     .differece-six-thumb {
+          margin-bottom: 30px;
+     }
+     .differece-six-thumb img {
+          width: 100%;
+     }
+     .difference-six-wrapper {
+          padding: 120px 0 40px;
+     }
+
+     
+     /* Home Six Cause Css  */
+     .cause-six-area .thumb a {
+          display: block;
+     }
+     .cause-six-area .thumb img {
+          width: 100%;
+     }
+
+
+     /* Home Six Brand Css  */
+     .brand-six-wrapper {
+          margin-bottom: 30px;
+     }
+
+
+     /* Home Six Subscribe Css  */
+     .subscribe-six-left h3 {
+          font-size: 33px;
+     }
+
+     /* Home Six Blog Css  */
+     .blog-six-thumb {
+          width: 100%;
+     }
+     .blog-six-thumb a {
+          display: block;
+     }
+     .blog-six-thumb img {
+          width: 100%;
+     }
+
+     /* Home Six Section Css  */
+     .section-six-title {
+          font-size: 40px;
+     }
+
+
+
+     /*============ Home Seven Start  ============*/
+     .header-seven-area {
+          padding: 0 20px;
+          border-bottom: 1px solid #eeebeb;
+     }
+     .header-seven-area .open-offcanvas-nav {
+          align-items: center;
+          justify-content: center;
+     }
+     .banner-seven-area {
+          padding: 70px 0 120px 30px;
+     }
+     .banner-seven-wrapper {
+          margin-bottom: 50px;
+     }
+     .banner-seven-title {
+          font-size: 150px;
+     }
+     .banner-seven-wrapper-shape-1 {
+          display: none;
+     }
+     .banner-seven-wrapper-shape-2 {
+          display: none;
+     }
+     .banner-seven-wrapper-shape-4 {
+          display: none;
+     }
+     .banner-seven-bg-shape-1 {
+          display: none;
+     }
+     .banner-seven-bg-shape-2 {
+          display: none;
+     }
+     .banner-seven-bg-shape-3 {
+          display: none;
+     }
+
+
+     .about-seven-wrapper {
+          margin-bottom: 30px;
+          margin-left: 0;
+     }
+     .about-seven-thumb {
+          margin-left: 0;
+     }
+     .about-seven-wrap {
+          display: flex;
+     }
+     .about-seven-counter h2 {
+          font-size: 160px;
+     }
+     .about-seven-counter {
+          margin-top: 0;
+     }
+     .about-seven-counter p {
+          margin-bottom: 0;
+          line-height: 1;
+     }
+     .childhood-top-descrip {
+          margin-left: 0;
+          margin-bottom: 50px;
+     }
+     .section-seven-title {
+          line-height: 1;
+     }
+     .childhood-seven-wrapper {
+          height: 460px;
+     }
+     .childhood-seven-button a {
+          font-size: 26px;
+     }
+     .childhood-seven-paragraph {
+          font-size: 15px;
+     }
+     .childhood-seven-bg-shape-2 {
+          bottom: -21px;
+     }
+     .counter-seven-heading {
+          font-size: 120px;
+     }
+     .team-seven-button {
+          justify-content: left !important;
+     }
+     .team-seven-area .section-seven-wrapper {
+          margin-bottom: 0 !important;
+     }
+     .team-seven-button {
+          margin-bottom: 50px;
+     }
+     .testimonial-seven-paragraph {
+          font-size: 33px;
+     }
+     .testimonial-seven-thumb img {
+          width: 100%;
+     }
+     .contact-seven-area .contact__content {
+          padding: 60px 40px;
+          margin-bottom: 30px;
+     }
+     .contact-seven-wrap {
+          padding: 0 0;
+     }
+     .contact-seven-area .image img {
+          width: 100%;
+     }
+     .blog-seven-content {
+          max-width: 360px;
+          width: 100%;
+          margin-left: 0;
+     }
+     .blog-seven-area .section-seven-title {
+          font-size: 56px;
+     }
+     .blog-seven-title {
+          font-size: 32px;
+     }
+     .footer-seven-top-content h2 {
+          font-size: 100px;
+     }
+     .footer-seven-area .footer-two__widget .footer-two__widget-intro {
+          text-align: left !important;
+     }
+     .footer-seven-area .footer-two__widget .social {
+          justify-content: left !important;
+     }
+
+
+
+     /*============ Home Eight Start  ============*/
+     /* Header Css */
+     .header-eight-area {
+          border-radius: 0 !important;
+          margin: 0;
+          padding-inline-start: 15px;
+          padding-inline-end: 15px;
+     }
+     .header-eight-navbar-space {
+          margin-inline-end: 0;
+     }
+     .header-eight-area .contact-btn {
+          display: none;
+     }
+     .banner-eight-area {
+          padding: 30px 10px;
+     }
+     /* Banner Css */
+     .banner-six-slide {
+          margin-top: 20px;
+     }
+     .banner-six-slide-dot {
+          bottom: auto !important;
+     }
+     .banner-eight-title {
+          font-size: 75px;
+     }
+     .banner-eight-join {
+          font-size: 16px;
+     }
+     .banner-eight-content p {
+          font-size: 14px;
+     }
+     .banner-eight-review-team p {
+          font-size: 14px;
+     }
+     .banner-eight-dot {
+          right: 12px;
+          bottom: auto!important;
+     }
+     .banner-eight-wrap {
+          gap: 14px;
+     }
+     /* About Css */
+     .about-eight-thumb {
+          margin-bottom: 120px;
+     }
+     .about-eight-center {
+          margin-inline-start: 0;
+     }
+     .about-eight-button {
+          margin-inline-start: 0;
+     }
+     .about-eight-video-play {
+          left: 41%;
+     }
+     /* Service Css */
+     .service-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .service-eight-thumb > a {
+          display: block;
+     }
+     .service-eight-thumb img {
+          width: 100%;
+     }
+     /* Maquee Css */
+     .maquee-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     /* Countdown Css */
+     .countdown-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .countdown-eight-button {
+          text-align: left;
+          margin-top: 50px;
+     }
+     /* Event Css */
+     .event-eight-content {
+          max-width: 395px;
+          width: 100%;
+     }
+     .team-eight-thumb a {
+          display: block;
+     }
+     .team-eight-thumb a img {
+          width: 100%;
+     }
+     .team-eight-scrollbar .swiper-scrollbar.two .swiper-scrollbar-drag {
+          width: 150px !important;
+     }
+     .maquee-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .ministrie-eight-scrollbar .swiper-scrollbar.two .swiper-scrollbar-drag {
+          width: 150px !important;
+     }
+     .faq-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .faq-eight-right {
+          margin-left: 0;
+          margin-top: 30px;
+     }
+     .ministrie-eight-title {
+          margin-bottom: 10px;
+     }
+
+     /* Blog css */
+     .blog-eight-wrapper {
+          flex-wrap: wrap;
+     }
+     .blog-eight-wrap {
+          flex-wrap: wrap;
+          max-width: 45%;
+          padding-bottom: 30px;
+     }
+     .blog-eight-thumb {
+          width: 100%;
+          opacity: 1;
+          visibility: visible;
+          display: block;
+     }
+     .blog-eight-content {
+          padding-left: 0;
+     }
+     .blog-eight-thumb a img {
+          width: 100%;
+          height: 300px;
+     }
+     .blog-eight-wrap.active .blog-eight-content {
+          padding-left: 0;
+     }
+     .blog-eight-paragraph {
+          font-size: 15px;
+     }
+     .blog-eight-wrap.active {
+          max-width: 45%;
+     }
+     .instagram-eight-wrapper {
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+     
+     .footer-eight-area {
+          margin: 0;
+          margin-top: 0;
+          border-radius: 0;
+     }
+     .footer-eight-top-wrap {
+          margin-bottom: 30px;
+     }
+     .footer-eight-top-info.call {
+          margin-left: 0;
+     }
+     .footer-eight-top-info.gamil {
+          margin-left: 0;
+     }
+     .section-eight-title {
+          font-size: 51px;
+     }
+}
+@media (max-width: 767px) {
+     /* Home Six Header Css  */
+     .header-six-area {
+          padding: 0 0;
+          top: 0 !important;
+     }
+     .header-six-area .contact-btn {
+          display: none;
+     }
+     .header-six-btn {
+          display: none !important;
+     }
+     .header-six-area .search-box {
+          display: none;
+     }
+     /* Home Six Banner Css  */
+     .banner-six-area {
+          padding: 180px 0 0;
+     }
+     .banner-six-bg-shape {
+          display: none;
+     }
+     .banner-six-slide-bg {
+          height: 425px;
+     }
+     .banner-six-title {
+          font-size: 58px;
+     }
+     .banner-six-wrapper {
+          flex-wrap: wrap;
+          row-gap: 30px;
+          padding-bottom: 60px;
+     }
+     .banner-six-conter-wrap {
+          flex-wrap: wrap;
+     }
+     .banner-six-conter-item h2 {
+          margin-bottom: 4px;
+     }
+     .banner-six-circle {
+          display: none;
+     }
+     .banner-six-slide-dot {
+          right: auto;
+          left: 50% !important;
+          bottom: 80px !important;
+          transform: translateX(-50%);
+          background: var(--primary-six);
+     }
+     .banner-six-circle {
+          display: none;
+     }
+     /* Home Six About Css  */
+     .about-six-circle {
+          display: inline-flex;
+     }
+     .about-six-thumb {
+          margin-bottom: 30px;
+     }
+     .about-six-shape-1 {
+          display: none;
+     }
+     .about-six-shape-2 {
+          display: none;
+     }
+     .about-six-shape-3 {
+          display: none;
+     }
+     .about-six-shape-4 {
+          display: none;
+     }
+     .about-six-blockquote {
+          flex-wrap: wrap;
+     }
+     .about-six-blockquote-icon {
+          top: -120px;
+     }
+     .about-six-list ul li {
+          flex-wrap: wrap;
+          font-size: 18px;
+          line-height: 1.2;
+     }
+     /* Home Six Feature Css  */
+     .feature-six-area {
+          margin-top: 0;
+          padding-top: 60px;
+     }
+     /* Home Six Team Css  */
+     .team-six-button-wrap {
+          border: none;
+          max-width: 100%;
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: center;
+          row-gap: 20px;
+     }
+     .team-six-button-left {
+          margin-right: 0;
+          padding-right: 0;
+     }
+     .team-six-button-left::before {
+          display: none;
+     }
+     /* Home Six Events Css  */
+     .events-six-wrapper {
+          flex-wrap: wrap;
+     }
+     .events-six-thumb {
+          width: 100%;
+     }
+     .events-six-thumb img {
+          max-width: 100%;
+          width: 100%;
+     }
+     .events-six-content-bottom {
+          flex-wrap: wrap;
+          row-gap: 20px;
+     }
+     /* Home Six Difference Css  */
+     .difference-six-area::before {
+          width: 100%;
+          border-radius: 0;
+     }
+     .difference-six-bottom {
+          position: static;
+          transform: inherit;
+     }
+     .differece-six-thumb {
+          margin-bottom: 30px;
+     }
+     .differece-six-thumb img {
+          width: 100%;
+     }
+     .difference-six-wrapper {
+          padding: 120px 0 40px;
+     }
+     /* Home Six Brand Css  */
+     .brand-six-wrapper {
+          margin-bottom: 30px;
+     }
+     /* Home Six Subscribe Css  */
+     .subscribe-six-input {
+          border-radius: 0;
+          padding: 30px 6px;
+     }
+     .subscribe-six-button {
+          right: 1%;
+     }
+     /* Home Six Section Css  */
+     .section-six-title {
+          font-size: 34px;
+     }
+     .section-six-paragraph {
+          font-size: 15px;
+     }
+     /*============ Home Seven Start  ============*/
+     .header-seven-area {
+          padding: 0 20px;
+     }
+     .header-seven-area .navbar__mobile-options {
+          display: none;
+     }
+     .banner-seven-area {
+          padding: 70px 0 120px 0;
+     }
+     .banner-seven-title {
+          font-size: 81px;
+     }
+     .banner-seven-wrapper-shape-1 {
+          display: none;
+     }
+     .banner-seven-wrapper-shape-2 {
+          display: none;
+     }
+     .banner-seven-wrapper-shape-4 {
+          display: none;
+     }
+     .banner-seven-bg-shape-1 {
+          display: none;
+     }
+     .banner-seven-bg-shape-2 {
+          display: none;
+     }
+     .banner-seven-bg-shape-3 {
+          display: none;
+     }
+     .banner-seven-bg-shape-4 {
+          display: none;
+     }
+     .banner-seven-button .btn-seven-primary {
+          padding: 16px 18px;
+     }
+     .banner-seven-descri {
+          margin-left: 30px;
+          margin-bottom: 40px;
+     }
+     .about-seven-shape {
+          display: none;
+     }
+     .about-seven-wrapper {
+          padding: 80px 30px 80px;
+          max-width: 100%;
+          margin-left: 0;
+     }
+     .about-seven-title {
+          font-size: 35px;
+     }
+     .about-seven-thumb {
+          margin-left: 0;
+     }
+     .about-seven-thumb img {
+          width: 100%;
+     }
+     .childhood-top-descrip {
+          margin-left: 0;
+          margin-bottom: 50px;
+     }
+     .childhood-seven-wrapper {
+          height: 400px;
+     }
+     .childhood-seven-button a {
+          font-size: 25px;
+     }
+     .childhood-seven-bg-shape-2 {
+          bottom: -11px;
+     }
+     .counter-seven-wrapper {
+          margin-bottom: 60px;
+     }
+     .counter-seven-heading {
+          font-size: 57px;
+     }
+     .counter-seven-volunteer h2 {
+          width: 320px;
+          height: 320px;
+          font-size: 101px;
+     }
+     .community-seven-content h2 {
+          font-size: 115px;
+     }
+     .community-seven-content p {
+          font-size: 14px;
+     }
+     .team-seven-button {
+          margin-top: 0;
+          margin-bottom: 40px;
+          justify-content: left !important;
+     }
+     .contact-seven-area {
+          margin: 0 0 0;
+     }
+     .contact-seven-wrap {
+          padding: 0 0;
+     }
+     .testimonial-seven-title {
+          font-size: 32px;
+     }
+     .testimonial-seven-wrapper {
+          padding: 50px 20px 40px;
+     }
+     .testimonial-seven-paragraph {
+          font-size: 22px;
+     }
+     .footer-seven-top-content h2 {
+          font-size: 52px;
+          border-bottom: 4px solid var(--white);
+     }
+     .blog-seven-wrapper {
+          flex-wrap: wrap;
+          row-gap: 30px;
+     }
+     .blog-seven-content {
+          margin-left: 0;
+     }
+     .blog-seven-title {
+          font-size: 30px;
+          margin-bottom: 36px;
+     }
+     .section-seven-title {
+          font-size: 40px;
+     }
+     .footer-seven-col-2 {
+          margin-inline-end: 150px;
+          margin-inline-start: 0;
+     }
+
+
+
+     /*============ Home Eight Start  ============*/
+     /* Header Css */
+     .header-eight-area {
+          border-radius: 0 !important;
+          margin: 0;
+          padding-inline-start: 15px;
+          padding-inline-end: 15px;
+     }
+     .header-eight-navbar-space {
+          margin-inline-end: 0;
+     }
+     .header-eight-area .contact-btn {
+          display: none;
+     }
+     .header-eight-area .navbar__mobile-options {
+          display: none;
+     }
+     /* Banner Css */
+     .banner-eight-area {
+          padding: 0;
+     }
+     .banner-eight-wrapper {
+          border-radius: 0;
+          padding: 49px 20px 60px;
+     }
+     .banner-eight-title {
+          font-size: 60px;
+     }
+     .banner-eight-wrap {
+          margin: 0 10px 30px;
+     }
+     .banner-eight-wrap {
+          gap: 15px;
+          flex-wrap: wrap;
+     }
+     .banner-eight-review {
+          margin: 0 10px 30px;
+     }
+     .banner-six-slide {
+          margin: 0 10px 0;
+     }
+     .banner-eight-dot {
+          left: inherit !important;
+          bottom: inherit !important;
+          transform: inherit !important;
+          right: 10px;
+          top: 39% !important;
+          background: var(--primary-eight);
+     }
+     /* About Css */
+     .about-eight-thumb {
+          margin-bottom: 120px;
+     }
+     .about-eight-center {
+          margin-inline-start: 0;
+     }
+     .about-eight-button {
+          margin-inline-start: 0;
+     }
+     .about-eight-video-play {
+          left: 31%;
+     }
+     .about-eight-thumb-shape {
+          right: 1px;
+     }
+     .about-eight-thumb-shape img {
+          width: 260px;
+          height: 300px;
+          object-fit: contain;
+     }
+     .about-eight-item:last-child {
+          margin-bottom: 30px;
+     }
+     /* Service Css */
+     .service-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .service-eight-thumb > a {
+          display: block;
+     }
+     .service-eight-thumb img {
+          width: 100%;
+     }
+     /* Maquee Css */
+     .maquee-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .maquee-eight-title {
+          font-size: 40px;
+     }
+     /* Event Css */
+     .event-eight-wrap {
+          flex-wrap: wrap;
+          row-gap: 20px;
+          justify-content: space-between;
+     }
+     .event-eight-content {
+          max-width: 100%;
+     }
+     .event-eight-button {
+          gap: 0;
+          width: 100%;
+          justify-content: space-between;
+     }
+     /* Countdown Css */
+     .countdown-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .countdown-eight-timer ul {
+          flex-wrap: wrap;
+          justify-content: space-between;
+     }
+     .countdown-eight-button {
+          text-align: center;
+          margin-top: 50px;
+     }
+     .team-eight-thumb a {
+          display: block;
+     }
+     .team-eight-thumb a img {
+          width: 100%;
+     }
+     .team-eight-dot {
+          margin: auto;
+     }
+     .team-eight-scrollbar .swiper-scrollbar.one .swiper-scrollbar-drag {
+          width: 80px !important;
+     }
+     .faq-eight-area {
+          margin: 0;
+          border-radius: 0;
+     }
+     .faq-eight-accordion-button {
+          font-size: 17px;
+     }
+     .faq-eight-right {
+          margin-left: 0;
+     }
+     .ministrie-eight-title {
+          font-size: 22px;
+          margin-bottom: 8px;
+     }
+     .ministrie-eight-paragraph {
+          color: var(--white);
+          font-size: 14px;
+          line-height: 24px;
+     }
+     .ministrie-eight-dot {
+          margin: auto;
+     }
+     .ministrie-eight-scrollbar .swiper-scrollbar.two .swiper-scrollbar-drag {
+          width: 80px !important;
+     }
+
+
+     /* Blog css */
+     .blog-eight-wrapper {
+          flex-wrap: wrap;
+     }
+     .blog-eight-wrap {
+          flex-wrap: wrap;
+          max-width: 100%;
+          padding-bottom: 30px;
+     }
+     .blog-eight-thumb {
+          width: 100%;
+          opacity: 1;
+          visibility: visible;
+          display: block;
+     }
+     .blog-eight-content {
+          padding-left: 0;
+     }
+     .blog-eight-thumb a img {
+          width: 100%;
+          height: 300px;
+     }
+     .blog-eight-wrap.active .blog-eight-content {
+          max-width: 100%;
+          padding-left: 0;
+     }
+     .blog-eight-paragraph {
+          font-size: 15px;
+     }
+     .blog-eight-wrap.active {
+          max-width: 100%;
+     }
+     .instagram-eight-wrapper {
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+          
+     .footer-eight-area {
+          margin: 0;
+          margin-top: 0;
+          border-radius: 0;
+     }
+     .footer-eight-top-wrap {
+          margin-bottom: 30px;
+     }
+     .footer-eight-top-info.call {
+          margin-left: 0;
+     }
+     .footer-eight-top-info.gamil {
+          margin-left: 0;
+     }
+     .footer-eight-top-info {
+          margin-bottom: 30px;
+     }
+     .section-eight-title {
+          font-size: 37px;
+     }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+     /* Home Six Banner Css  */
+     .banner-six-title {
+          font-size: 65px;
+     }
+     /* Home Six Team Css  */
+     .team-six-button-wrap {
+          border: 1px solid rgba(102, 116, 113, .2);
+          max-width: 496px;
+          width: 100%;
+          flex-wrap: inherit;
+          justify-content: center;
+          row-gap: 20px;
+     }
+     .team-six-button-left {
+          margin-right: 40px;
+          padding-right: 40px;
+     }
+     .team-six-button-left::before {
+          display: block;
+     }
+     /* Home Six Cause Css  */
+     .cause-six-area .thumb a {
+          display: block;
+     }
+     .cause-six-area .thumb img {
+          width: 100%;
+     }
+     /* Home Six Subscribe Css  */
+     .subscribe-six-left {
+          border-radius: 0;
+     }
+     /* Home Six Blog Css  */
+     .blog-six-thumb {
+          width: 100%;
+     }
+     .blog-six-thumb a {
+          display: block;
+     }
+     .blog-six-thumb img {
+          width: 100%;
+     }
+
+     .banner-seven-area {
+          padding: 70px 0 120px 10px;
+     }
+     .banner-seven-title {
+          font-size: 120px;
+     }
+     .childhood-seven-wrapper {
+          height: 500px;
+     }
+     .team-seven-thumb img {
+          width: 100%;
+     }
+     .contact-seven-area .contact__content {
+          padding: 60px 40px;
+     }
+     .contact-seven-thumb img {
+          width: 100%;
+     }
+     .about-eight-video-play {
+          left: 22%;
+     }
+     .countdown-eight-timer ul {
+          flex-wrap: wrap;
+          justify-content: inherit;
+          gap: 10px;
+     }
+     .countdown-eight-timer ul li {
+          max-width: 121px;
+     }
+     .faq-eight-accordion-button {
+          font-size: 18px;
+     }
+
+
+     .section-eight-title {
+          font-size: 43px;
+     }
+}
