@@ -109,7 +109,6 @@
   --quinary-color: #061408;
   --septenary-color: #0c141f;
   --senary-color: #d9d9d9;
-  --hover-color: #6b5103;
   --transition: all 0.5s ease;
   --shadow: 0px 10px 25px 0px rgba(37, 42, 52, 0.08);
   --shadow-secondary: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
@@ -124,8 +123,10 @@
   --primary-seven-body: #fcf8ed;
   
   --primary-eight: #ED5A2F;
-  --secondary-blue: #0e76bc;
-  --secondary-blue-light: #25aae1;
+
+  --hover-color: #25aae1;
+  --secondary-blue: #0b9444;
+  --secondary-blue-light: 6b5103;
 
 }
 
@@ -1734,11 +1735,11 @@ div {
 }
 .slider-navigation .slider-btn:hover {
   background-color: var(--base-color);
-  color: var(--black);
+  color: var(--white);
 }
 .slider-navigation .slider-btn-next {
   background-color: var(--base-color);
-  color: var(--black);
+  color: var(--white);
 }
 .slider-navigation .slider-btn-next:hover {
   background-color: var(--secondary-color);
@@ -1864,7 +1865,7 @@ div {
 .btn--primary {
   padding: 13px 24px;
   background-color: var(--base-color);
-  color: var(--black);
+  color: var(--white);
   position: relative;
   font-weight: 800;
   z-index: 1;
@@ -1900,7 +1901,7 @@ div {
 }
 .btn--primary:hover {
   color: var(--white);
-  background-color: var(--quaternary-color);
+  background-color: var(--hover-color);
 }
 .btn--primary:hover path {
   fill: white;
@@ -9107,7 +9108,7 @@ div {
   z-index: 1;
 }
 .blog .blog__single:hover {
-  background-color: var(--tertiary-color);
+  background-color: var(--base-color);
 }
 .blog .blog__single:hover .blog__single-thumb a img {
   -webkit-transform: scale(1.2) rotate(6deg);
@@ -9127,7 +9128,7 @@ div {
   background-color: var(--white);
 }
 .blog .blog__single:hover .blog__single-cta a i {
-  color: var(--base-color);
+  color: var(--white);
 }
 .blog .blog__single:hover .spade-two {
   opacity: 1;
@@ -14408,7 +14409,7 @@ div {
 }
 .fc-testimonial .slider-navigation .slider-btn {
   background-color: #fbda33;
-  color: var(--black);
+  color: var(--white);
 }
 .fc-testimonial .slider-navigation .slider-btn:hover {
   background-color: var(--base-color);
@@ -14416,7 +14417,7 @@ div {
 }
 .fc-testimonial .slider-navigation .slider-btn-next {
   background-color: var(--base-color);
-  color: var(--black);
+  color: var(--white);
 }
 .fc-testimonial .test-text {
   position: absolute;
