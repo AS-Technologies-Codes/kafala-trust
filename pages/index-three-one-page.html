@@ -1,0 +1,3203 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!-- #title -->
+    <title>Kifala Trust | Sahara Unka, Jo Be-Sahara Hain</title>
+    <!-- #keywords -->
+    <meta
+      name="keywords"
+      content="charity, nonprofit, fundraising, donation, html, bootstrap, scss"
+    />
+    <!-- #description -->
+    <meta name="description" content="Sahara Unka, Jo Be-Sahara Hain" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&amp;family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;family=Nunito:ital,wght@0,200..1000;1,200..1000&amp;family=Outfit:wght@100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- color themes -->
+    <link
+      rel="stylesheet"
+      href="assets/css/default-theme.css"
+      id="switch-color"
+    />
+    <!-- want sticky header -->
+    <link rel="stylesheet" href="assets/css/sticky-header.css" />
+    <!-- box layout css -->
+    <link rel="stylesheet" href="assets/css/box-layout.css" />
+    <!-- dark mode css -->
+    <link rel="stylesheet" href="assets/css/dark-mode.css" />
+    <!-- rtl css -->
+    <link rel="stylesheet" href="assets/css/rtl.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@8.0.12/dist/turbo.es2017-umd.min.js"></script>
+    <script>
+      Turbo.start();
+    </script>
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <div class="page-wrapper" id="app">
+      <!-- ==== preloader start ==== -->
+      <div class="preloader">
+        <i class="icon-donation"></i>
+        <p>KIFALA TRUST</p>
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== topbar start ==== -->
+      <div class="topbar topbar--secondary d-none d-lg-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="topbar__inner">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-6 col-xxl-4">
+                    <div class="topbar__list-wrapper">
+                      <ul class="topbar__list">
+                        <li>
+                          <a href="mailto:support@kifalatrust.com"
+                            ><i class="fa-regular fa-envelope"></i
+                            >support@kifalatrust.com</a
+                          >
+                        </li>
+                        <li>
+                          <a href="tel:03212398495"
+                            ><i class="fa-solid fa-phone"></i>03212398495</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-12 col-xxl-4 d-none d-xxl-block">
+                    <div class="topbar__extra text-center">
+                      <p>
+                        <i class="icon-heart-hand"></i> Are you ready to help
+                        them? Let's become a volunteer!
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6 col-xxl-4">
+                    <div class="topbar__items justify-content-end">
+                      <div class="select-currency">
+                        <select name="currency" class="currency-select select">
+                          <option value="usd">USD</option>
+                          <option value="gbp">GBP</option>
+                          <option value="aud">AUD</option>
+                          <option value="euro">Euro</option>
+                        </select>
+                      </div>
+                      <div class="select-country">
+                        <select name="country" class="country-select select">
+                          <option data-flag="fi-gb-eng">English</option>
+                          <option data-flag="fi-us">Spanish</option>
+                          <option data-flag="fi-cn">Chinese</option>
+                          <option data-flag="fi-it">Italian</option>
+                        </select>
+                      </div>
+                      <div class="social">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          aria-label="share us on facebook"
+                          title="facebook"
+                        >
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a
+                          href="https://vimeo.com/"
+                          target="_blank"
+                          aria-label="share us on vimeo"
+                          title="vimeo"
+                        >
+                          <i class="fa-brands fa-vimeo-v"></i>
+                        </a>
+                        <a
+                          href="https://x.com/"
+                          target="_blank"
+                          aria-label="share us on twitter"
+                          title="twitter"
+                        >
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/"
+                          target="_blank"
+                          aria-label="share us on linkedin"
+                          title="linkedin"
+                        >
+                          <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== / topbar end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header header-secondary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-header__menu-box">
+                <nav class="navbar p-0">
+                  <div class="navbar-logo">
+                    <a href="index.html">
+                      <img src="assets/images/logo.png" alt="Image" />
+                    </a>
+                  </div>
+                  <div class="navbar__menu-wrapper">
+                    <div class="navbar__menu d-none d-xl-block">
+                      <ul class="navbar__list">
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            aria-label="dropdown menu"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Home</a
+                          >
+                          <ul class="navbar__sub-menu mega-menu">
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-one.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index.html" class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                              </div>
+                              <a href="index.html">Home One</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-two.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-two.html" class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-two-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                              </div>
+                              <a href="index-two.html">Home Two</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-three.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a
+                                    href="index-three.html"
+                                    class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-three-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                              </div>
+                              <a href="index-three.html">Home Three</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-four.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-four.html" class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-four-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                                <span class="new">New</span>
+                              </div>
+                              <a href="index-four.html">Home Four</a>
+                            </li>
+
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-five.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-five.html" class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-five-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                                <span class="new">New</span>
+                              </div>
+                              <a href="index-five.html">Home Five</a>
+                            </li>
+
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-six.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-six.html" class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-six-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                                <span class="new">New</span>
+                              </div>
+                              <a href="index-six.html">Home Six</a>
+                            </li>
+
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-seven.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a
+                                    href="index-seven.html"
+                                    class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-seven-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                                <span class="new">New</span>
+                              </div>
+                              <a href="index-seven.html">Home Seven</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-eight.png"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a
+                                    href="index-eight.html"
+                                    class="btn--primary"
+                                    >Multipage</a
+                                  >
+                                  <a
+                                    href="index-eight-one-page.html"
+                                    class="btn--secondary"
+                                    >One Page</a
+                                  >
+                                </div>
+                                <span class="new">New</span>
+                              </div>
+                              <a href="index-eight.html">Home Eight</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                          <a href="about-us.html">About Us</a>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            aria-label="dropdown menu"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Causes</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="our-causes.html">Our Causes</a>
+                            </li>
+                            <li>
+                              <a href="cause-details.html">Cause Details</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            aria-label="dropdown menu"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Pages</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                              <a href="donate-us.html">Donate Us</a>
+                            </li>
+                            <li>
+                              <a href="become-volunteer.html"
+                                >Become Volunteer</a
+                              >
+                            </li>
+                            <li class="navbar__item navbar__item--has-children">
+                              <a
+                                aria-label="dropdown menu"
+                                class="navbar__dropdown-label navbar__dropdown-label-sub"
+                                >Events</a
+                              >
+                              <ul
+                                class="navbar__sub-menu navbar__sub-menu__nested"
+                              >
+                                <li>
+                                  <a href="events.html">Events</a>
+                                </li>
+                                <li>
+                                  <a href="event-details.html">Event Details</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="navbar__item navbar__item--has-children">
+                              <a
+                                aria-label="dropdown menu"
+                                class="navbar__dropdown-label navbar__dropdown-label-sub"
+                                >Shop</a
+                              >
+                              <ul
+                                class="navbar__sub-menu navbar__sub-menu__nested"
+                              >
+                                <li>
+                                  <a href="shop.html">Our Shop</a>
+                                </li>
+                                <li>
+                                  <a href="product-details.html"
+                                    >Product Details</a
+                                  >
+                                </li>
+                                <li>
+                                  <a href="cart.html">View Cart</a>
+                                </li>
+                                <li>
+                                  <a href="checkout.html">Cehckout</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="navbar__item navbar__item--has-children">
+                              <a
+                                aria-label="dropdown menu"
+                                class="navbar__dropdown-label navbar__dropdown-label-sub"
+                                >Team</a
+                              >
+                              <ul
+                                class="navbar__sub-menu navbar__sub-menu__nested"
+                              >
+                                <li>
+                                  <a href="our-team.html">Our Teams</a>
+                                </li>
+                                <li>
+                                  <a href="team-details.html">Team Details</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="coming-soon.html">Coming Soon</a>
+                            </li>
+                            <li>
+                              <a href="404.html">Error</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            aria-label="dropdown menu"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >News</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="blog-list.html">News List View</a>
+                            </li>
+                            <li>
+                              <a href="blog-grid.html">News Grid View</a>
+                            </li>
+                            <li>
+                              <a href="blog-details.html">News Details</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                          <a href="contact-us.html">Contact Us</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="contact-btn">
+                      <div class="contact-icon">
+                        <i class="icon-support"></i>
+                      </div>
+                      <div class="contact-content">
+                        <p>Call Us Now</p>
+                        <a href="tel:01-793-7938">(+01)-793-7938 </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="navbar__options">
+                    <div class="navbar__mobile-options">
+                      <div class="search-box">
+                        <button
+                          class="open-search"
+                          aria-label="search products"
+                          title="open search box"
+                        >
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </div>
+                      <a
+                        href="donate-us.html"
+                        class="btn--primary d-none d-md-flex"
+                        >Donate Now <i class="fa-solid fa-arrow-right"></i
+                      ></a>
+                    </div>
+                    <button
+                      class="open-offcanvas-nav d-flex d-xl-none"
+                      aria-label="toggle mobile menu"
+                      title="open offcanvas menu"
+                    >
+                      <span class="icon-bar top-bar"></span>
+                      <span class="icon-bar middle-bar"></span>
+                      <span class="icon-bar bottom-bar"></span>
+                    </button>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <!-- ==== mobile menu start ==== -->
+      <div class="mobile-menu mobile-menu--primary d-block d-xxl-none">
+        <nav class="mobile-menu__wrapper">
+          <div class="mobile-menu__header nav-fade">
+            <div class="logo">
+              <a href="index.html" aria-label="home page" title="logo">
+                <img src="assets/images/logo.png" alt="Image" />
+              </a>
+            </div>
+            <button aria-label="close mobile menu" class="close-mobile-menu">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <div class="mobile-menu__list"></div>
+          <div class="mobile-menu__cta nav-fade d-block d-md-none">
+            <a href="donate-us.html" class="btn--primary"
+              >Donate Now <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="mobile-menu__social social nav-fade">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="share us on facebook"
+              title="facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://vimeo.com/"
+              target="_blank"
+              aria-label="share us on vimeo"
+              title="vimeo"
+            >
+              <i class="fa-brands fa-vimeo-v"></i>
+            </a>
+            <a
+              href="https://x.com/"
+              target="_blank"
+              aria-label="share us on twitter"
+              title="twitter"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              aria-label="share us on linkedin"
+              title="linkedin"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="mobile-menu__backdrop"></div>
+      <!-- ==== / mobile menu end ==== -->
+      <!-- ==== search popup start ==== -->
+      <div class="search-popup">
+        <button
+          class="close-search"
+          aria-label="close search box"
+          title="close search box"
+        >
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form action="#" method="post">
+          <div class="search-popup__group">
+            <input
+              type="text"
+              name="search-field"
+              id="searchField"
+              placeholder="Search...."
+              required
+            />
+            <button
+              type="submit"
+              aria-label="search products"
+              title="search products"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- ==== / search popup end ==== -->
+      <!-- ==== banner section start ==== -->
+      <section class="banner-two">
+        <div class="banner-two__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="banner-two__slider-single">
+                <div
+                  class="banner-two__slider-bg"
+                  data-background="assets/images/banner/banner-two-bg.png"
+                ></div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-md-9 col-lg-7 col-xxl-6">
+                      <div class="banner-two__slider-content">
+                        <span class="sub-title"
+                          ><i class="icon-donation"></i>Start donating poor
+                          people
+                        </span>
+                        <h1>
+                          Giving help <br />
+                          To Those <span class="bottom-line">peoples</span>
+                          Who Need It.
+                        </h1>
+                        <div class="banner__content-cta cta">
+                          <a
+                            href="our-causes.html"
+                            aria-label="about us"
+                            title="about us"
+                            class="btn--tertiary"
+                            >Discover More
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                          <a
+                            href="contact-us.html"
+                            aria-label="contact us"
+                            title="contact us"
+                            class="btn--primary"
+                            >Get A Quote <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="banner-two__slider-single">
+                <div
+                  class="banner-two__slider-bg"
+                  data-background="assets/images/banner/banner-one-bg.png"
+                ></div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-md-9 col-lg-7 col-xxl-6">
+                      <div class="banner-two__slider-content">
+                        <span class="sub-title"
+                          ><i class="icon-donation"></i>Start donating poor
+                          people</span
+                        >
+                        <h1>
+                          Giving help <br />
+                          To Those <span class="bottom-line">peoples</span>
+                          Who Need It.
+                        </h1>
+                        <div class="banner__content-cta cta">
+                          <a
+                            href="our-causes.html"
+                            aria-label="about us"
+                            title="about us"
+                            class="btn--tertiary"
+                            >Discover More
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                          <a
+                            href="contact-us.html"
+                            aria-label="contact us"
+                            title="contact us"
+                            class="btn--primary"
+                            >Get A Quote <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="banner-two__slider-single">
+                <div
+                  class="banner-two__slider-bg"
+                  data-background="assets/images/banner/banner-two-bg.png"
+                ></div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-md-9 col-lg-7 col-xxl-6">
+                      <div class="banner-two__slider-content">
+                        <span class="sub-title"
+                          ><i class="icon-donation"></i>Start donating poor
+                          people</span
+                        >
+                        <h1>
+                          Giving help <br />
+                          To Those <span class="bottom-line">peoples</span>
+                          Who Need It.
+                        </h1>
+                        <div class="banner__content-cta cta">
+                          <a
+                            href="our-causes.html"
+                            aria-label="about us"
+                            title="about us"
+                            class="btn--tertiary"
+                            >Discover More
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                          <a
+                            href="contact-us.html"
+                            aria-label="contact us"
+                            title="contact us"
+                            class="btn--primary"
+                            >Get A Quote <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="banner-two__slider-single">
+                <div
+                  class="banner-two__slider-bg"
+                  data-background="assets/images/banner/banner-one-bg.png"
+                ></div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-md-9 col-lg-7 col-xxl-6">
+                      <div class="banner-two__slider-content">
+                        <span class="sub-title"
+                          ><i class="icon-donation"></i>Start donating poor
+                          people</span
+                        >
+                        <h1>
+                          Giving help <br />
+                          To Those <span class="bottom-line">peoples</span>
+                          Who Need It.
+                        </h1>
+                        <div class="banner__content-cta cta">
+                          <a
+                            href="our-causes.html"
+                            aria-label="about us"
+                            title="about us"
+                            class="btn--tertiary"
+                            >Discover More
+                            <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                          <a
+                            href="contact-us.html"
+                            aria-label="contact us"
+                            title="contact us"
+                            class="btn--primary"
+                            >Get A Quote <i class="fa-solid fa-arrow-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-navigation d-none d-md-flex">
+          <button
+            type="button"
+            aria-label="prev slide"
+            title="prev slide"
+            class="prev-banner slider-btn"
+          >
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button
+            type="button"
+            aria-label="next slide"
+            title="next slide"
+            class="next-banner slider-btn slider-btn-next"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="shape">
+          <img src="assets/images/shape.png" alt="Image" />
+        </div>
+        <div
+          class="shape-left"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <img src="assets/images/banner/banner-two-shape.png" alt="Image" />
+        </div>
+        <div class="sprade-shape">
+          <img
+            src="assets/images/sprade-base.png"
+            alt="Image"
+            class="base-img"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+        </div>
+        <div class="unity">
+          <img src="assets/images/unity.png" alt="Image" />
+        </div>
+      </section>
+      <!-- ==== / banner section end ==== -->
+      <!-- ==== partner section start ==== -->
+      <div class="partner">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="partner__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/one.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/two.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/three.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/four.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/five.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/one.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/two.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/three.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/four.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/five.png" alt="Image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== / partner section end ==== -->
+      <!-- ==== difference section start ==== -->
+     
+      <!-- ==== / difference section end ==== -->
+      <!-- ==== help section start ==== -->
+      <section class="help">
+        <div class="container">
+          <div class="row align-items-center gutter-40">
+            <div class="col-12 col-lg-5 col-xxl-6 d-none d-lg-block">
+              <div class="help__thumb">
+                <div class="help__thumb-inner">
+                  <div class="thumb-top thumb">
+                    <img src="assets/images/help/thumb-top.png" alt="Image" />
+                  </div>
+                  <div
+                    class="thumb-lg thumb"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                  >
+                    <img src="assets/images/help/thumb-lg.png" alt="Image" />
+                    <div class="video-btn-wrapper">
+                      <a
+                        href="https://www.youtube.com/watch?v=RvreULjnzFo"
+                        target="_blank"
+                        title="video Player"
+                        class="open-video-popup"
+                      >
+                        <i class="icon-play"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="thumb thumb-bottom">
+                    <img
+                      src="assets/images/help/thumb-bottom.png"
+                      alt="Image"
+                    />
+                  </div>
+                  <div class="line">
+                    <img src="assets/images/help/line.png" alt="Image" />
+                  </div>
+                  <div class="grid-line">
+                    <img
+                      src="assets/images/help/grid.png"
+                      alt="Image"
+                      class="base-img"
+                    />
+                  </div>
+                  <div class="vertical-text">
+                    <h5>We Give <span>Donations</span> to Poor People</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7 col-xxl-6">
+              <div class="help__content">
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Start donating poor people</span
+                >
+                <h2 class="title-animation">
+                  Helping each other can make <span>world</span> better
+                </h2>
+                <p>
+                  Volunteering offers opportunities to develop new skills and
+                  gain valuable experience. This can include leadership,
+                  communication, project management, and teamwork skills.
+                </p>
+                <div class="help__content-icon-group">
+                  <div class="help__content-icon">
+                    <div class="thumb">
+                      <i class="icon-make-donation"></i>
+                    </div>
+                    <div class="content">
+                      <h6>Start helping them</h6>
+                      <p>
+                        Raising awareness about the charity's mission and cause.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="help__content-icon">
+                    <div class="thumb">
+                      <i class="icon-support-heart"></i>
+                    </div>
+                    <div class="content">
+                      <h6>Make Donations</h6>
+                      <p>
+                        Raising awareness about the charity's mission and cause.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="help__content-list">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i> Helped fund 3,265
+                      Project powerful corporate poor.
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i> We give child a
+                      gift of a education
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i> We help companies
+                      develop powerful corporate social Responsibility,
+                    </li>
+                  </ul>
+                </div>
+                <div class="help__content-cta cta">
+                  <a
+                    href="about-us.html"
+                    aria-label="more about us"
+                    title="about us"
+                    class="btn--primary"
+                    >More About Us</a
+                  >
+                  <div class="contact-btn">
+                    <div class="contact-icon">
+                      <i class="icon-phone"></i>
+                    </div>
+                    <div class="contact-content">
+                      <p>Phone</p>
+                      <a href="tel:01-793-7938">+236 (456) 896 22</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hand">
+          <img src="assets/images/help/hand.png" alt="Image" />
+        </div>
+        <div class="parasuit">
+          <img src="assets/images/parasuit.png" alt="Image" />
+        </div>
+        <div class="spade">
+          <img src="assets/images/help/spade.png" alt="Image" />
+        </div>
+      </section>
+      <!-- ==== / help section end ==== -->
+      <!-- ==== cause slider section start ==== -->
+      <section class="cause" data-background="assets/images/cause/cause-bg.png">
+        <div class="container">
+          <div class="row gutter-30 align-items-center">
+            <div class="col-12 col-md-8 col-xl-7">
+              <div class="section__header">
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Start donating poor people</span
+                >
+                <h2 class="title-animation">
+                  Help & <span>donate</span> them when they're in need
+                </h2>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-xl-5">
+              <div class="slider-navigation">
+                <button
+                  type="button"
+                  aria-label="prev slide"
+                  title="prev slide"
+                  class="prev-cause slider-btn"
+                >
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button
+                  type="button"
+                  aria-label="next slide"
+                  title="next slide"
+                  class="next-cause slider-btn slider-btn-next"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="cause__slider-wrapper">
+                <div class="cause__slider swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/one.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Health</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html"
+                                >Children we work with</a
+                              >
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">85%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="85%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/two.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Food</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html"
+                                >Help For Education</a
+                              >
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">90%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="90%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/three.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Health</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html">Help For Food</a>
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">75%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="75%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/four.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Food</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html"
+                                >Give health support</a
+                              >
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">65%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="65%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/one.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Health</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html"
+                                >Children we work with</a
+                              >
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">85%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="85%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/two.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Food</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html"
+                                >Help For Education</a
+                              >
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">90%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="90%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/three.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Health</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html">Help For Food</a>
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">75%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="75%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="cause-details.html">
+                              <img
+                                src="assets/images/cause/four.png"
+                                alt="Image"
+                              />
+                            </a>
+                            <div class="tag">
+                              <a href="our-causes.html">Food</a>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="cause-details.html"
+                                >Give health support</a
+                              >
+                            </h6>
+                            <p>
+                              Lorem ipsum dolor sit amet, consete sadipscing
+                              elitr, sed diam nonum
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Donation</span>
+                                  <span class="percent-value">65%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="65%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>Raised: <span class="raised">$8500</span></p>
+                                <p>Goal: <span class="goal">$1,0000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a
+                                href="donate-us.html"
+                                aria-label="donate now"
+                                title="donate now"
+                                class="btn--secondary"
+                                >Donate Now</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="cause-pagination pagination-one"></div>
+            </div>
+          </div>
+        </div>
+        <div class="spade">
+          <img src="assets/images/help/spade.png" alt="Image" />
+        </div>
+      </section>
+      <!-- ==== / cause slider section end ==== -->
+      <!-- ==== cta section start ==== -->
+      <section class="cta-section">
+        <div class="container-fluid">
+          <div class="row gutter-40">
+            <div class="col-12 col-xxl-4">
+              <div class="cta-section__first cta-section__single">
+                <div
+                  class="cta-section__group"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <div class="thumb">
+                    <i class="icon-spread-love"></i>
+                  </div>
+                  <div class="content">
+                    <span>We give child a gift of a education</span>
+                    <h3 class="title-animation">Become a volunteer?</h3>
+                  </div>
+                  <div class="cta-s">
+                    <a
+                      href="become-volunteer.html"
+                      aria-label="become a volunteer"
+                      title="become a volunteer"
+                      class="btn--tertiary"
+                      >Contact Now</a
+                    >
+                  </div>
+                </div>
+                <div class="cta-img">
+                  <img src="assets/images/cta/one.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xxl-4">
+              <div class="cta-section__center cta-section__single">
+                <div class="video-btn-wrapper">
+                  <a
+                    href="https://www.youtube.com/watch?v=RvreULjnzFo"
+                    target="_blank"
+                    title="video Player"
+                    class="open-video-popup"
+                  >
+                    <i class="icon-play"></i>
+                  </a>
+                </div>
+                <div class="cta-img">
+                  <img
+                    src="assets/images/cta/two.png"
+                    alt="Image"
+                    class="parallax-image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xxl-4">
+              <div class="cta-section__last cta-section__single">
+                <div
+                  class="cta-section__group"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                >
+                  <div class="thumb">
+                    <i class="icon-spread-love"></i>
+                  </div>
+                  <div class="content">
+                    <span>We give child a gift of a education</span>
+                    <h3 class="title-animation">Make donation to us?</h3>
+                  </div>
+                  <div class="cta-s">
+                    <a
+                      href="donate-us.html"
+                      aria-label="make a donation"
+                      title="make a donation"
+                      class="btn--primary"
+                      >Donate Now</a
+                    >
+                  </div>
+                </div>
+                <div class="cta-img">
+                  <img src="assets/images/cta/three.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / cta section end ==== -->
+      <!-- ==== team section start ==== -->
+      <section class="team">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-10 col-xl-6">
+              <div
+                class="section__header text-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Start donating poor people</span
+                >
+                <h2 class="title-animation">
+                  Meet Our Volunteer <span>Team</span> members
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row gutter-40">
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div
+                class="team__single-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div class="team__single van-tilt">
+                  <div class="team__single-thumb">
+                    <a href="team-details.html">
+                      <img src="assets/images/team/one.png" alt="Image" />
+                    </a>
+                    <div class="team__icons">
+                      <div class="team__single-content__icon">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="team__single__thumb-social">
+                        <ul>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-behance"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team__single-content">
+                    <h6><a href="team-details.html">Michel Fokluz</a></h6>
+                    <p>Volunteer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div
+                class="team__single-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
+                <div class="team__single van-tilt">
+                  <div class="team__single-thumb">
+                    <a href="team-details.html">
+                      <img src="assets/images/team/two.png" alt="Image" />
+                    </a>
+                    <div class="team__icons">
+                      <div class="team__single-content__icon">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="team__single__thumb-social">
+                        <ul>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-behance"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team__single-content">
+                    <h6><a href="team-details.html">Arian Drobloas</a></h6>
+                    <p>Volunteer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div
+                class="team__single-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="600"
+              >
+                <div class="team__single van-tilt">
+                  <div class="team__single-thumb">
+                    <a href="team-details.html">
+                      <img src="assets/images/team/three.png" alt="Image" />
+                    </a>
+                    <div class="team__icons">
+                      <div class="team__single-content__icon">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="team__single__thumb-social">
+                        <ul>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-behance"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team__single-content">
+                    <h6><a href="team-details.html">Jara Klintof</a></h6>
+                    <p>Volunteer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-3">
+              <div
+                class="team__single-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="900"
+              >
+                <div class="team__single van-tilt">
+                  <div class="team__single-thumb">
+                    <a href="team-details.html">
+                      <img src="assets/images/team/four.png" alt="Image" />
+                    </a>
+                    <div class="team__icons">
+                      <div class="team__single-content__icon">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                      <div class="team__single__thumb-social">
+                        <ul>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-twitter"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="index.html">
+                              <i class="fa-brands fa-behance"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team__single-content">
+                    <h6><a href="team-details.html">Aiden Markram</a></h6>
+                    <p>Volunteer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="section__cta cta text-center">
+                <a
+                  href="our-team.html"
+                  aria-label="our team"
+                  title="our team"
+                  class="btn--primary"
+                  >View All <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spade">
+          <img src="assets/images/sprade-green.png" alt="Image" />
+        </div>
+      </section>
+      <!-- ==== / team section end ==== -->
+      <!-- ==== community section start ==== -->
+      <section class="community">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 col-xl-7">
+              <div
+                class="section__header"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Start donating poor people</span
+                >
+                <h2 class="title-animation">
+                  Join The <span>Community</span> To Give Education For Children
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="community-donation"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div class="community-donation__inner">
+                  <h4>Support Where It Counts.</h4>
+                  <!-- <div class="warning">
+                    <div class="line">
+                      <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <p>
+                      <strong>Notice:</strong> Test mode is enabled. While in
+                      test mode no live donations are processed.
+                    </p>
+                  </div> -->
+                  <div class="donation-form mt-2">
+                    <div class="donation-form__single">
+                      <h5>Your Donation:</h5>
+                      <div class="input-group-icon">
+                        <div class="thumb">
+                          <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <input
+                          type="text"
+                          name="donation-amount"
+                          id="donationAmount"
+                        />
+                      </div>
+                      <div class="made-amount">
+                        <span class="donation-amount">20</span>
+                        <span class="donation-amount">50</span>
+                        <span class="donation-amount active">100</span>
+                        <span class="donation-amount">200</span>
+                        <span class="donation-amount custom-amount"
+                          >Custom</span
+                        >
+                      </div>
+                    </div>
+                    <div class="donation-form__single">
+                      <h5>Select Payment Method</h5>
+                      <div class="radio-wrapper">
+                        <div class="radio-single">
+                          <input
+                            type="radio"
+                            id="testDonation"
+                            name="donation-payment"
+                            checked
+                          />
+                          <label for="testDonation">Test Donation</label>
+                        </div>
+                        <div class="radio-single">
+                          <input
+                            type="radio"
+                            id="offlineDonation"
+                            name="donation-payment"
+                            checked
+                          />
+                          <label for="offlineDonation">Offline Donation</label>
+                        </div>
+                        <div class="radio-single">
+                          <input
+                            type="radio"
+                            id="cardDonation"
+                            name="donation-payment"
+                            checked
+                          />
+                          <label for="cardDonation">Credit Card</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cta">
+                      <a
+                        href="donate-us.html"
+                        aria-label="donate us"
+                        title="donate us"
+                        class="btn--primary"
+                        >Donate Now <i class="fa-solid fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="community__thumb d-none d-lg-block"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <img src="assets/images/community/thumb.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="community-bg">
+          <img
+            src="assets/images/community/community-bg.png"
+            alt="Image"
+            class="parallax-image"
+          />
+        </div>
+        <div
+          class="gift"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <img src="assets/images/community/gift.png" alt="Image" />
+        </div>
+        <div class="spade">
+          <img
+            src="assets/images/community/spade.png"
+            alt="Image"
+            class="base-img"
+          />
+        </div>
+      </section>
+      <!-- ==== / community section end ==== -->
+      <!-- ==== testimonial section start ==== -->
+      <section class="testimonial" data-background="assets/images/bg-one.png">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7">
+              <div
+                class="section__header text-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Start donating poor people</span
+                >
+                <h2 class="title-animation">
+                  Our valueable <span>customer</span>
+                  Awesome Feedback
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial__inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="testimonial__slider swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="testimonial__slider-single">
+                        <div class="review">
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                        </div>
+                        <div class="content">
+                          <blockquote>
+                            <q
+                              >Charity is the voluntary act of giving help,
+                              typically in the form of money, time, or
+                              resources, to those in need. Charitable
+                              organizations aim to solve social, environmental,
+                              and economic challenges by addressing issues like
+                              poverty</q
+                            >
+                          </blockquote>
+                        </div>
+                        <div class="author-info">
+                          <div class="author-thumb">
+                            <img src="assets/images/author.png" alt="Image" />
+                          </div>
+                          <div class="author-content">
+                            <h6>Michel Smith</h6>
+                            <p>Cloth Store Inc.</p>
+                          </div>
+                        </div>
+                        <div class="quote">
+                          <img src="assets/images/quote.png" alt="Image" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial__slider-single">
+                        <div class="review">
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                        </div>
+                        <div class="content">
+                          <blockquote>
+                            <q
+                              >Charity is the voluntary act of giving help,
+                              typically in the form of money, time, or
+                              resources, to those in need. Charitable
+                              organizations aim to solve social, environmental,
+                              and economic challenges by addressing issues like
+                              poverty</q
+                            >
+                          </blockquote>
+                        </div>
+                        <div class="author-info">
+                          <div class="author-thumb">
+                            <img src="assets/images/author.png" alt="Image" />
+                          </div>
+                          <div class="author-content">
+                            <h6>Ruby Klara</h6>
+                            <p>Cloth Store Inc.</p>
+                          </div>
+                        </div>
+                        <div class="quote">
+                          <img src="assets/images/quote.png" alt="Image" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial__slider-single">
+                        <div class="review">
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                        </div>
+                        <div class="content">
+                          <blockquote>
+                            <q
+                              >Charity is the voluntary act of giving help,
+                              typically in the form of money, time, or
+                              resources, to those in need. Charitable
+                              organizations aim to solve social, environmental,
+                              and economic challenges by addressing issues like
+                              poverty</q
+                            >
+                          </blockquote>
+                        </div>
+                        <div class="author-info">
+                          <div class="author-thumb">
+                            <img src="assets/images/author.png" alt="Image" />
+                          </div>
+                          <div class="author-content">
+                            <h6>Bishu Kiev</h6>
+                            <p>Cloth Store Inc.</p>
+                          </div>
+                        </div>
+                        <div class="quote">
+                          <img src="assets/images/quote.png" alt="Image" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial__slider-single">
+                        <div class="review">
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                        </div>
+                        <div class="content">
+                          <blockquote>
+                            <q
+                              >Charity is the voluntary act of giving help,
+                              typically in the form of money, time, or
+                              resources, to those in need. Charitable
+                              organizations aim to solve social, environmental,
+                              and economic challenges by addressing issues like
+                              poverty</q
+                            >
+                          </blockquote>
+                        </div>
+                        <div class="author-info">
+                          <div class="author-thumb">
+                            <img src="assets/images/author.png" alt="Image" />
+                          </div>
+                          <div class="author-content">
+                            <h6>Michel Smith</h6>
+                            <p>Cloth Store Inc.</p>
+                          </div>
+                        </div>
+                        <div class="quote">
+                          <img src="assets/images/quote.png" alt="Image" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial__slider-single">
+                        <div class="review">
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                        </div>
+                        <div class="content">
+                          <blockquote>
+                            <q
+                              >Charity is the voluntary act of giving help,
+                              typically in the form of money, time, or
+                              resources, to those in need. Charitable
+                              organizations aim to solve social, environmental,
+                              and economic challenges by addressing issues like
+                              poverty</q
+                            >
+                          </blockquote>
+                        </div>
+                        <div class="author-info">
+                          <div class="author-thumb">
+                            <img src="assets/images/author.png" alt="Image" />
+                          </div>
+                          <div class="author-content">
+                            <h6>Ruby Klara</h6>
+                            <p>Cloth Store Inc.</p>
+                          </div>
+                        </div>
+                        <div class="quote">
+                          <img src="assets/images/quote.png" alt="Image" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial__slider-single">
+                        <div class="review">
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                          <i class="icon-star"></i>
+                        </div>
+                        <div class="content">
+                          <blockquote>
+                            <q
+                              >Charity is the voluntary act of giving help,
+                              typically in the form of money, time, or
+                              resources, to those in need. Charitable
+                              organizations aim to solve social, environmental,
+                              and economic challenges by addressing issues like
+                              poverty</q
+                            >
+                          </blockquote>
+                        </div>
+                        <div class="author-info">
+                          <div class="author-thumb">
+                            <img src="assets/images/author.png" alt="Image" />
+                          </div>
+                          <div class="author-content">
+                            <h6>Bishu Kiev</h6>
+                            <p>Cloth Store Inc.</p>
+                          </div>
+                        </div>
+                        <div class="quote">
+                          <img src="assets/images/quote.png" alt="Image" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-navigation">
+            <button
+              type="button"
+              aria-label="prev slide"
+              title="prev slide"
+              class="prev-testimonial slider-btn"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button
+              type="button"
+              aria-label="next slide"
+              title="next slide"
+              class="next-testimonial slider-btn slider-btn-next"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="shape"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
+          <img
+            src="assets/images/community/shape.png"
+            alt="Image"
+            class="base-img"
+          />
+        </div>
+      </section>
+      <!-- ==== / testimonial section end ==== -->
+      <!-- ==== cause slider two section start ==== -->
+      <section class="cause-two">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="cause-two__inner">
+                <div class="slider-navigation">
+                  <button
+                    type="button"
+                    aria-label="prev slide"
+                    title="prev slide"
+                    class="prev-cause-two slider-btn"
+                  >
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="next slide"
+                    title="next slide"
+                    class="next-cause-two slider-btn slider-btn-next"
+                  >
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+                <div class="cause-two__slider swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="cause-two__slider-single">
+                        <div class="cause-thumb">
+                          <img src="assets/images/cause/five.png" alt="Image" />
+                          <a href="cause-details.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause-two__slider-single">
+                        <div class="cause-thumb">
+                          <img src="assets/images/cause/six.png" alt="Image" />
+                          <a href="cause-details.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause-two__slider-single">
+                        <div class="cause-thumb">
+                          <img
+                            src="assets/images/cause/seven.png"
+                            alt="Image"
+                          />
+                          <a href="cause-details.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause-two__slider-single">
+                        <div class="cause-thumb">
+                          <img src="assets/images/cause/five.png" alt="Image" />
+                          <a href="cause-details.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause-two__slider-single">
+                        <div class="cause-thumb">
+                          <img src="assets/images/cause/six.png" alt="Image" />
+                          <a href="cause-details.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="cause-two__slider-single">
+                        <div class="cause-thumb">
+                          <img
+                            src="assets/images/cause/seven.png"
+                            alt="Image"
+                          />
+                          <a href="cause-details.html">
+                            <i class="fa-solid fa-arrow-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cause-two__content-slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="cause-content">
+                      <h4>old people & Child trouble</h4>
+                      <p>Child & old care</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cause-content">
+                      <h4>old people & Child trouble</h4>
+                      <p>Child & old care</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cause-content">
+                      <h4>old people & Child trouble</h4>
+                      <p>Child & old care</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cause-content">
+                      <h4>old people & Child trouble</h4>
+                      <p>Child & old care</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cause-content">
+                      <h4>old people & Child trouble</h4>
+                      <p>Child & old care</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="cause-content">
+                      <h4>old people & Child trouble</h4>
+                      <p>Child & old care</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / cause slider two section end ==== -->
+      <!-- ==== difference two section start ==== -->
+      <section class="difference-two">
+        <div class="container">
+          <div class="row gutter-40 align-items-center">
+            <div class="col-12 col-lg-4 col-xxl-5 d-none d-lg-block">
+              <div class="difference-two__thumb-wrapper">
+                <div class="difference-two__thumb">
+                  <div
+                    class="thumb-lg"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                  >
+                    <img
+                      src="assets/images/difference/thumb-sm.png"
+                      alt="Image"
+                    />
+                    <div class="grid-line">
+                      <img
+                        src="assets/images/help/grid.png"
+                        alt="Image"
+                        class="base-img"
+                      />
+                    </div>
+                    <div class="video-btn-wrapper">
+                      <a
+                        href="https://www.youtube.com/watch?v=RvreULjnzFo"
+                        target="_blank"
+                        title="video Player"
+                        class="open-video-popup"
+                      >
+                        <i class="icon-play"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="thumb-sm"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="300"
+                  >
+                    <img
+                      src="assets/images/difference/thumb-lg.png"
+                      alt="Image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8 col-xxl-7">
+              <div class="difference-two__content">
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Start donating poor people</span
+                >
+                <h2 class="title-animation">
+                  Donate <span>Support</span> to Make Difference way
+                </h2>
+                <p>
+                  Charity is the voluntary act of giving help, typically in the
+                  form of money, time, or resources, to those in need.
+                  Charitable organizations aim to solve social, environmental,
+                  and economic challenges by addressing issues like poverty,
+                </p>
+                <div class="difference-two__inner cta">
+                  <div class="difference-two__inner-content">
+                    <div class="difference-two__tab">
+                      <div class="difference-two__tab-btns">
+                        <button
+                          class="difference-two__tab-btn active"
+                          data-target="#mission"
+                          aria-label="mission"
+                          title="mission"
+                        >
+                          Our Mission
+                        </button>
+                        <button
+                          class="difference-two__tab-btn"
+                          data-target="#vision"
+                          aria-label="vision"
+                          title="vision"
+                        >
+                          Our Vision
+                        </button>
+                        <button
+                          class="difference-two__tab-btn"
+                          data-target="#excellence"
+                          aria-label="excellence"
+                          title="excellence"
+                        >
+                          Excellence
+                        </button>
+                      </div>
+                      <div class="difference-two__tab-content">
+                        <div
+                          class="difference-two__content-single"
+                          id="mission"
+                        >
+                          <ul>
+                            <li>
+                              <i class="fa-solid fa-check"></i>We help companies
+                              develop powerful corporate social
+                            </li>
+                            <li>
+                              <i class="fa-solid fa-check"></i>Helped fund 3,265
+                              Project powerful corporate poor
+                            </li>
+                            <li>
+                              <i class="fa-solid fa-check"></i>Dedicated Tech
+                              Services
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="difference-two__content-single" id="vision">
+                          <ul>
+                            <li>
+                              <i class="fa-solid fa-check"></i>We help companies
+                              develop powerful corporate social
+                            </li>
+                            <li>
+                              <i class="fa-solid fa-check"></i>Helped fund 3,265
+                              Project powerful corporate poor
+                            </li>
+                            <li>
+                              <i class="fa-solid fa-check"></i>Dedicated Tech
+                              Services
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="difference-two__content-single"
+                          id="excellence"
+                        >
+                          <ul>
+                            <li>
+                              <i class="fa-solid fa-check"></i>We help companies
+                              develop powerful corporate social
+                            </li>
+                            <li>
+                              <i class="fa-solid fa-check"></i>Helped fund 3,265
+                              Project powerful corporate poor
+                            </li>
+                            <li>
+                              <i class="fa-solid fa-check"></i>Dedicated Tech
+                              Services
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="difference-two__progress">
+                      <div class="difference-progress-single">
+                        <div class="progress-bar-single" data-percent="75%">
+                          <div class="circular-progress">
+                            <div class="percent-value">0%</div>
+                            <svg class="progress-circle" viewBox="0 0 36 36">
+                              <path
+                                class="circle-bg"
+                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                              />
+                              <path
+                                class="circle-progress"
+                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <p>
+                            Treatment <br />
+                            Helping
+                          </p>
+                        </div>
+                      </div>
+                      <div class="difference-progress-single">
+                        <div class="progress-bar-single" data-percent="92%">
+                          <div class="circular-progress">
+                            <div class="percent-value">0%</div>
+                            <svg class="progress-circle" viewBox="0 0 36 36">
+                              <path
+                                class="circle-bg"
+                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                              />
+                              <path
+                                class="circle-progress"
+                                d="M18 2.0845
+                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <p>
+                            Highest <br />
+                            Fund Raised
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="difference-two__card">
+                    <div class="card-group">
+                      <div class="thumb">
+                        <i class="icon-donation-card"></i>
+                      </div>
+                      <div class="content">
+                        <h6>Donate Now</h6>
+                        <p>$40,456</p>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="card-group card-group-alt">
+                      <div class="thumb">
+                        <i class="icon-fund"></i>
+                      </div>
+                      <div class="content">
+                        <h6>Total Fundraised</h6>
+                        <p>$1,540,456</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spade">
+          <img src="assets/images/spade-green-two.png" alt="Image" />
+        </div>
+      </section>
+      <!-- ==== / difference two section end ==== -->
+
+      <!-- ==== blog section start ==== -->
+      <section class="blog">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7">
+              <div
+                class="section__header text-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Start donating poor people</span
+                >
+                <h2 class="title-animation">
+                  Our Latest <span>News</span> & Articles you like
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row gutter-40">
+            <div class="col-12 col-lg-6 col-xl-4">
+              <div
+                class="blog__single-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div class="blog__single van-tilt">
+                  <div class="blog__single-thumb">
+                    <a href="blog-details.html">
+                      <img src="assets/images/blog/one.png" alt="Image" />
+                    </a>
+                    <div class="tag">
+                      <a href="blog-list.html"
+                        ><i class="fa-solid fa-tags"></i>Health</a
+                      >
+                    </div>
+                  </div>
+                  <div class="blog__single-inner">
+                    <div class="blog__single-meta">
+                      <p><i class="icon-user"></i>Robert Fox</p>
+                      <p><i class="icon-message"></i>Comments (03)</p>
+                    </div>
+                    <div class="blog__single-content">
+                      <h5>
+                        <a href="blog-details.html"
+                          >IT Service Case Studies Accelerate Business Fly
+                          Success Tech</a
+                        >
+                      </h5>
+                    </div>
+                    <div class="blog__single-cta">
+                      <a
+                        href="blog-details.html"
+                        aria-label="blog details"
+                        title="blog details"
+                        >Read More<i class="fa-solid fa-circle-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="assets/images/blog/spade.png"
+                    alt="Image"
+                    class="spade-two"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+              <div
+                class="blog__single-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
+                <div class="blog__single van-tilt">
+                  <div class="blog__single-thumb">
+                    <a href="blog-details.html">
+                      <img src="assets/images/blog/two.png" alt="Image" />
+                    </a>
+                    <div class="tag">
+                      <a href="blog-list.html"
+                        ><i class="fa-solid fa-tags"></i>Education</a
+                      >
+                    </div>
+                  </div>
+                  <div class="blog__single-inner">
+                    <div class="blog__single-meta">
+                      <p><i class="icon-user"></i>Robert Fox</p>
+                      <p><i class="icon-message"></i>Comments (08)</p>
+                    </div>
+                    <div class="blog__single-content">
+                      <h5>
+                        <a href="blog-details.html"
+                          >IT Service Case Studies Accelerate Business Fly
+                          Success Tech</a
+                        >
+                      </h5>
+                    </div>
+                    <div class="blog__single-cta">
+                      <a
+                        href="blog-details.html"
+                        aria-label="blog details"
+                        title="blog details"
+                        >Read More<i class="fa-solid fa-circle-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="assets/images/blog/spade.png"
+                    alt="Image"
+                    class="spade-two"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+              <div
+                class="blog__single-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="600"
+              >
+                <div class="blog__single van-tilt">
+                  <div class="blog__single-thumb">
+                    <a href="blog-details.html">
+                      <img src="assets/images/blog/three.png" alt="Image" />
+                    </a>
+                    <div class="tag">
+                      <a href="blog-list.html"
+                        ><i class="fa-solid fa-tags"></i>Food</a
+                      >
+                    </div>
+                  </div>
+                  <div class="blog__single-inner">
+                    <div class="blog__single-meta">
+                      <p><i class="icon-user"></i>Robert Fox</p>
+                      <p><i class="icon-message"></i>Comments (13)</p>
+                    </div>
+                    <div class="blog__single-content">
+                      <h5>
+                        <a href="blog-details.html"
+                          >IT Service Case Studies Accelerate Business Fly
+                          Success Tech</a
+                        >
+                      </h5>
+                    </div>
+                    <div class="blog__single-cta">
+                      <a
+                        href="blog-details.html"
+                        aria-label="blog details"
+                        title="blog details"
+                        >Read More<i class="fa-solid fa-circle-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <img
+                    src="assets/images/blog/spade.png"
+                    alt="Image"
+                    class="spade-two"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="section__cta cta text-center">
+                <a
+                  href="blog-list.html"
+                  aria-label="our blog"
+                  title="our blog"
+                  class="btn--primary"
+                  >View All <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-bg">
+          <img src="assets/images/blog/blog-bg.png" alt="Image" />
+        </div>
+        <div class="spade">
+          <img
+            src="assets/images/blog/spade-base.png"
+            alt="Image"
+            class="base-img"
+          />
+        </div>
+      </section>
+      <!-- ==== / blog section end ==== -->
+      <!-- ==== footer start ==== -->
+      <footer class="footer-two">
+        <div class="container">
+          <div class="row align-items-center gutter-30">
+            <div class="col-12 col-lg-7 col-xxl-6">
+              <div class="footer-two__newsletter-content">
+                <h3 class="title-animation">Subscribe to Our Newsletter</h3>
+                <p>Regular inspections and feedback mechanisms</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 col-xxl-5 offset-xxl-1">
+              <div class="footer-two__newsletter-form">
+                <form action="#" method="post">
+                  <input
+                    type="email"
+                    required
+                    name="subscribe-email"
+                    id="subscribeEmail"
+                    placeholder="Enter Email"
+                  />
+                  <button
+                    type="submit"
+                    aria-label="subscribe to our newsletter"
+                    title="subscribe to our newsletter"
+                    class="btn--primary"
+                  >
+                    <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <hr class="divider" />
+            </div>
+          </div>
+          <div class="row gutter-60">
+            <div class="col-12 col-md-6 col-xl-3">
+              <div
+                class="footer-two__widget"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div class="footer-two__widget-logo">
+                  <a href="index.html">
+                    <img src="assets/images/logo-light.png" alt="Image" />
+                  </a>
+                </div>
+                <div class="footer-two__widget-content">
+                  <p>
+                    Our secure online donation platform allows you to make
+                    contributions quickly and safely. Choose from various.
+                  </p>
+                  <div class="social">
+                   <a
+                      href="https://youtu.be/tqDZzk84k2Y?si=QXQ_KA-m6hUjBJYh"
+                      target="_blank"
+                      aria-label="share us on youtube"
+                      title="youtube"
+                    >
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a
+                      href="https://www.tiktok.com/@user045372716?_r=1&_t=ZS-9ATNlrbcO82"
+                      target="_blank"
+                      aria-label="share us on tiktok"
+                      title="tiktok"
+                    >
+                      <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                     <a
+                      href="https://www.instagram.com/israr.2578?dlrf=MXZjZGk1czd3Njh5NQ=="
+                      target="_blank"
+                      aria-label="share us on instagram"
+                      title="instagram"
+                    >
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-2 offset-xl-1">
+              <div
+                class="footer-two__widget"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <div class="footer-two__widget-intro">
+                  <h5>Quick Links</h5>
+                  <div class="line">
+                    <span class="large-line"></span>
+                    <span class="small-line"></span>
+                    <span class="small-line"></span>
+                  </div>
+                </div>
+                <div class="footer-two__widget-content">
+                  <ul>
+                    <li>
+                      <a href="about-us.html"
+                        ><i class="fa-solid fa-arrow-right"></i>About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a href="blog-list.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Our News</a
+                      >
+                    </li>
+                    <li>
+                      <a href="our-causes.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Our Campaign</a
+                      >
+                    </li>
+                    <li>
+                      <a href="faq.html"
+                        ><i class="fa-solid fa-arrow-right"></i>FAQ</a
+                      >
+                    </li>
+                    <li>
+                      <a href="contact-us.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Get A Quote</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div
+                class="footer-two__widget footer-two__widget--alternate"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="400"
+              >
+                <div class="footer-two__widget-intro">
+                  <h5>Our Services</h5>
+                  <div class="line">
+                    <span class="large-line"></span>
+                    <span class="small-line"></span>
+                    <span class="small-line"></span>
+                  </div>
+                </div>
+                <div class="footer-two__widget-content">
+                  <ul>
+                    <li>
+                      <a href="our-causes.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Our Causes</a
+                      >
+                    </li>
+                    <li>
+                      <a href="events.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Education
+                        Support</a
+                      >
+                    </li>
+                    <li>
+                      <a href="our-causes.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Our Campaign</a
+                      >
+                    </li>
+                    <li>
+                      <a href="our-causes.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Food Support</a
+                      >
+                    </li>
+                    <li>
+                      <a href="our-causes.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Health
+                        Support</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div
+                class="footer-two__widget footer-two__widget--alternate"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="600"
+              >
+                <div class="footer-two__widget-intro">
+                  <h5>Get In Touch</h5>
+                  <div class="line">
+                    <span class="large-line"></span>
+                    <span class="small-line"></span>
+                    <span class="small-line"></span>
+                  </div>
+                </div>
+                <div
+                  class="footer-two__widget-content footer-two__widget-content--contact"
+                >
+                  <ul>
+                    <li>
+                      <a
+                        href="https://maps.app.goo.gl/Gr9pTNqz5FRNrjQw8"
+                        target="_blank"
+                        ><i class="fa-solid fa-location-dot"></i>R-728 Block 9
+                        FB Area karachi, Pakistan</a
+                      >
+                    </li>
+                    <li>
+                      <a href="tel:03212398495"
+                        ><i class="fa-solid fa-phone"></i>03212398495</a
+                      >
+                    </li>
+                    <li>
+                      <a href="mailto:support@kifalatrust.com"
+                        ><i class="fa-regular fa-envelope"></i
+                        >support@kifalatrust.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-two__copyright">
+          <div class="container">
+            <div class="row align-items-center gutter-12">
+              <div class="col-12 col-lg-6">
+                <div
+                  class="footer-two__copyright-inner text-center text-lg-start"
+                >
+                  <p>
+                    Copyright &copy; <span id="copyrightYear"></span>
+                    <a href="index.html">&nbsp;Kifala Trust</a>. All rights
+                    reserved.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="footer__bottom-left">
+                  <ul
+                    class="footer__bottom-list justify-content-center justify-content-lg-end"
+                  >
+                    <li>
+                      <a href="terms-conditions.html">Terms & Conditions</a>
+                    </li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sprade" data-aos="zoom-in" data-aos-duration="1000">
+          <img src="assets/images/sprade.png" alt="Image" class="base-img" />
+        </div>
+        <div class="sprade-light" data-aos="zoom-in" data-aos-duration="1000">
+          <img src="assets/images/sprade-light.png" alt="Image" />
+        </div>
+      </footer>
+      <!-- ==== / footer end ==== -->
+      <!-- ==== custom cursor start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner"></div>
+      <!-- ==== / custom cursor end ==== -->
+      <!-- ==== scroll to top start ==== -->
+      <button
+        class="progress-wrap"
+        aria-label="scroll indicator"
+        title="back to top"
+      >
+        <span></span>
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </button>
+     
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- swiper slider js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- vanilla tilt js -->
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <!-- aos js -->
+    <script src="assets/js/aos.js"></script>
+    <!-- splittext js -->
+    <script src="assets/js/SplitText.min.js"></script>
+    <!-- scrollto js -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- scrolltrigger js -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- gsap js -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- ==== / js dependencies end ==== -->
+    <!-- template settings js -->
+    <script src="assets/js/template-settings.js"></script>
+    <!-- main js -->
+    <script src="assets/js/custom.js"></script>
+    <script>
+      const { createApp, ref, reactive, onMounted } = Vue;
+      createApp({
+        setup() {
+          return {};
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>
