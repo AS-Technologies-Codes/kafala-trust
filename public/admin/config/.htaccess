@@ -1,0 +1,2 @@
+# Block direct web access to config files (Apache).
+Require all denied

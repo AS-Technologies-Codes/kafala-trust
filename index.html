@@ -1,58 +1,47 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- required meta -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- #favicon -->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.png"
-      type="image/x-icon"
-    />
-    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
-    <!-- #title -->
-    <title>Kifala Trust | Sahara Unka, Jo Be-Sahara Hain</title>
-    <!-- #keywords -->
-    <meta
-      name="keywords"
-      content="charity, nonprofit, fundraising, donation, html, bootstrap, scss"
-    />
-    <!-- #description -->
-    <meta name="description" content="Sahara Unka, Jo Be-Sahara Hain" />
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&amp;family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;family=Nunito:ital,wght@0,200..1000;1,200..1000&amp;family=Outfit:wght@100..900&amp;display=swap"
-      rel="stylesheet"
-    />
-    <!-- main css -->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!-- responsive css -->
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <!-- color themes -->
-    <link
-      rel="stylesheet"
-      href="assets/css/default-theme.css"
-      id="switch-color"
-    />
-    <!-- want sticky header -->
-    <link rel="stylesheet" href="assets/css/sticky-header.css" />
-    <!-- box layout css -->
-    <link rel="stylesheet" href="assets/css/box-layout.css" />
-    <!-- dark mode css -->
-    <link rel="stylesheet" href="assets/css/dark-mode.css" />
-    <!-- rtl css -->
-    <link rel="stylesheet" href="assets/css/rtl.css" />
-      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@8.0.12/dist/turbo.es2017-umd.min.js"></script>
-    <script>
-      Turbo.start();
-    </script>
-  </head>
+
+<head>
+  <!-- required meta -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- #favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <!-- #title -->
+  <title>Kifala Trust | Sahara Unka, Jo Be-Sahara Hain</title>
+  <!-- #keywords -->
+  <meta name="keywords" content="charity, nonprofit, fundraising, donation, html, bootstrap, scss" />
+  <!-- #description -->
+  <meta name="description" content="Sahara Unka, Jo Be-Sahara Hain" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/" />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&amp;family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;family=Nunito:ital,wght@0,200..1000;1,200..1000&amp;family=Outfit:wght@100..900&amp;display=swap"
+    rel="stylesheet" />
+  <!-- main css -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <!-- responsive css -->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <!-- color themes -->
+  <link rel="stylesheet" href="assets/css/default-theme.css" id="switch-color" />
+  <!-- want sticky header -->
+  <link rel="stylesheet" href="assets/css/sticky-header.css" />
+  <!-- box layout css -->
+  <link rel="stylesheet" href="assets/css/box-layout.css" />
+  <!-- dark mode css -->
+  <link rel="stylesheet" href="assets/css/dark-mode.css" />
+  <!-- rtl css -->
+  <link rel="stylesheet" href="assets/css/rtl.css" />
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@hotwired/turbo@8.0.12/dist/turbo.es2017-umd.min.js"></script>
+  <script>
+    Turbo.start();
+  </script>
+</head>
+
 <body>
   <!--[if lt IE 9]>
       <p class="browserupgrade">
@@ -97,34 +86,17 @@
                 </div>
                 <div class="col-12 col-lg-6 col-xxl-4">
                   <dvi>
-                    <!-- <div class="topbar__items justify-content-end">
-                      <div class="select-currency">
-                        <select name="currency" class="currency-select select">
-                          <option value="usd">USD</option>
-                          <option value="gbp">GBP</option>
-                          <option value="aud">AUD</option>
-                          <option value="euro">Euro</option>
-                        </select>
-                      </div>
-                      <div class="select-country">
-                        <select name="country" class="country-select select">
-                          <option data-flag="fi-gb-eng">English</option>
-                          <option data-flag="fi-us">Spanish</option>
-                          <option data-flag="fi-cn">Chinese</option>
-                          <option data-flag="fi-it">Italian</option>
-                        </select>
-                      </div> -->
                     <div class="social justify-content-end">
                       <a href="https://youtu.be/tqDZzk84k2Y?si=QXQ_KA-m6hUjBJYh" target="_blank"
-                        aria-label="share us on facebook" title="facebook">
+                        aria-label="share us on youtube" title="youtube">
                         <i class="fa-brands fa-youtube"></i>
                       </a>
                       <a href="https://www.tiktok.com/@user045372716?_r=1&_t=ZS-9ATNlrbcO82" target="_blank"
-                        aria-label="share us on vimeo" title="vimeo">
+                        aria-label="share us on tiktok" title="tiktok">
                         <i class="fa-brands fa-tiktok"></i>
                       </a>
                       <a href="https://www.instagram.com/israr.2578?dlrf=MXZjZGk1czd3Njh5NQ==" target="_blank"
-                        aria-label="share us on twitter" title="twitter">
+                        aria-label="share us on instagram" title="instagram">
                         <i class="fa-brands fa-instagram"></i>
                       </a>
                     </div>
@@ -157,144 +129,14 @@
                       <a href="/">Home</a>
                     </li>
                     <li class="navbar__item nav-fade">
-                      <a href="/">About Us</a>
+                      <a href="/about-us.html">About Us</a>
                     </li>
                     <li class="navbar__item nav-fade">
-                      <a href="/">Causes</a>
+                      <a href="/our-programs.html">Our Programs</a>
                     </li>
                     <li class="navbar__item nav-fade">
-                      <a href="/">Causes</a>
+                      <a href="/news.html">News</a>
                     </li>
-                    <li class="navbar__item nav-fade">
-                      <a href="/">News</a>
-                    </li>
-                    <!-- <li
-                          class="navbar__item navbar__item--has-children nav-fade"
-                        >
-                          <a
-                            href="#"
-                            aria-label="dropdown menu"
-                            class="navbar__dropdown-label dropdown-label-alter"
-                            >Causes</a
-                          >
-                          <ul class="navbar__sub-menu">
-                            <li>
-                              <a href="our-causes.html">Our Causes</a>
-                            </li>
-                            <li>
-                              <a href="cause-details.html">Cause Details</a>
-                            </li>
-                          </ul>
-                        </li> -->
-                    <!-- <li
-                          class="navbar__item navbar__item--has-children nav-fade"
-                        >
-                          <a
-                            href="#"
-                            aria-label="dropdown menu"
-                            class="navbar__dropdown-label dropdown-label-alter"
-                            >Pages</a
-                          >
-                          <ul class="navbar__sub-menu">
-                            <li>
-                              <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                              <a href="donate-us.html">Donate Us</a>
-                            </li>
-                            <li>
-                              <a href="become-volunteer.html"
-                                >Become Volunteer</a
-                              >
-                            </li>
-                            <li class="navbar__item navbar__item--has-children">
-                              <a
-                                aria-label="dropdown menu"
-                                class="navbar__dropdown-label navbar__dropdown-label-sub"
-                                >Events</a
-                              >
-                              <ul
-                                class="navbar__sub-menu navbar__sub-menu__nested"
-                              >
-                                <li>
-                                  <a href="events.html">Events</a>
-                                </li>
-                                <li>
-                                  <a href="event-details.html">Event Details</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="navbar__item navbar__item--has-children">
-                              <a
-                                aria-label="dropdown menu"
-                                class="navbar__dropdown-label navbar__dropdown-label-sub"
-                                >Shop</a
-                              >
-                              <ul
-                                class="navbar__sub-menu navbar__sub-menu__nested"
-                              >
-                                <li>
-                                  <a href="shop.html">Our Shop</a>
-                                </li>
-                                <li>
-                                  <a href="product-details.html"
-                                    >Product Details</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="cart.html">View Cart</a>
-                                </li>
-                                <li>
-                                  <a href="checkout.html">Cehckout</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li class="navbar__item navbar__item--has-children">
-                              <a
-                                aria-label="dropdown menu"
-                                class="navbar__dropdown-label navbar__dropdown-label-sub"
-                                >Team</a
-                              >
-                              <ul
-                                class="navbar__sub-menu navbar__sub-menu__nested"
-                              >
-                                <li>
-                                  <a href="our-team.html">Our Teams</a>
-                                </li>
-                                <li>
-                                  <a href="team-details.html">Team Details</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li>
-                              <a href="coming-soon.html">Coming Soon</a>
-                            </li>
-                            <li>
-                              <a href="404.html">Error</a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="navbar__item navbar__item--has-children nav-fade"
-                        >
-                          <a
-                            href="#"
-                            aria-label="dropdown menu"
-                            class="navbar__dropdown-label dropdown-label-alter"
-                            >News</a
-                          >
-                          <ul class="navbar__sub-menu">
-                            <li>
-                              <a href="blog-list.html">News List View</a>
-                            </li>
-                            <li>
-                              <a href="blog-grid.html">News Grid View</a>
-                            </li>
-                            <li>
-                              <a href="blog-details.html">News Details</a>
-                            </li>
-                          </ul>
-                        </li> -->
                     <li class="navbar__item nav-fade">
                       <a href="contact-us.html">Contact Us</a>
                     </li>
@@ -306,7 +148,7 @@
                   </div>
                   <div class="contact-content">
                     <p>Call Us Now</p>
-                    <a href="tel:01-793-7938">(+01)-793-7938 </a>
+                    <a href="tel:03212398495">03212398495</a>
                   </div>
                 </div>
               </div>
@@ -352,17 +194,17 @@
         <a href="donate-us.html" class="btn--primary">Donate Now <i class="fa-solid fa-arrow-right"></i></a>
       </div>
       <div class="mobile-menu__social social nav-fade">
-        <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook" title="facebook">
-          <i class="fa-brands fa-facebook-f"></i>
+        <a href="https://youtu.be/tqDZzk84k2Y?si=QXQ_KA-m6hUjBJYh" target="_blank" aria-label="share us on youtube"
+          title="youtube">
+          <i class="fa-brands fa-youtube"></i>
         </a>
-        <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo" title="vimeo">
-          <i class="fa-brands fa-vimeo-v"></i>
+        <a href="https://www.tiktok.com/@user045372716?_r=1&_t=ZS-9ATNlrbcO82" target="_blank"
+          aria-label="share us on tiktok" title="tiktok">
+          <i class="fa-brands fa-tiktok"></i>
         </a>
-        <a href="https://x.com/" target="_blank" aria-label="share us on twitter" title="twitter">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on linkedin" title="linkedin">
-          <i class="fa-brands fa-linkedin-in"></i>
+        <a href="https://www.instagram.com/israr.2578?dlrf=MXZjZGk1czd3Njh5NQ==" target="_blank"
+          aria-label="share us on instagram" title="instagram">
+          <i class="fa-brands fa-instagram"></i>
         </a>
       </div>
     </nav>
@@ -428,17 +270,17 @@
         </div>
       </div>
       <div class="social">
-        <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook" title="facebook">
-          <i class="fa-brands fa-facebook-f"></i>
+        <a href="https://youtu.be/tqDZzk84k2Y?si=QXQ_KA-m6hUjBJYh" target="_blank" aria-label="share us on youtube"
+          title="youtube">
+          <i class="fa-brands fa-youtube"></i>
         </a>
-        <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo" title="vimeo">
-          <i class="fa-brands fa-vimeo-v"></i>
+        <a href="https://www.tiktok.com/@user045372716?_r=1&_t=ZS-9ATNlrbcO82" target="_blank"
+          aria-label="share us on tiktok" title="tiktok">
+          <i class="fa-brands fa-tiktok"></i>
         </a>
-        <a href="https://x.com/" target="_blank" aria-label="share us on twitter" title="twitter">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on linkedin" title="linkedin">
-          <i class="fa-brands fa-linkedin-in"></i>
+        <a href="https://www.instagram.com/israr.2578?dlrf=MXZjZGk1czd3Njh5NQ==" target="_blank"
+          aria-label="share us on instagram" title="instagram">
+          <i class="fa-brands fa-instagram"></i>
         </a>
       </div>
     </div>
@@ -555,54 +397,85 @@
                     master-builder.
                   </p>
                   <div class="banner__content-cta cta">
-                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Discover More
+                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Donate Now
                       <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Get A
-                      Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Our
+                      Programs <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="banner-three__content">
-                  <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                    people</span>
+                  <span class="sub-title"><i class="icon-donation"></i>Healthcare Assistance</span>
                   <h1 class="title-animation">
-                    We Are non <br />
-                    profit charity <span class="bottom-line">World</span>
-                    organization
+                    Free Medical <span class="bottom-line">Treatment</span> & Medicines
                   </h1>
                   <p>
-                    Denouncing pleasure and praising pain was born and will
-                    give you saidul complete great explorer of the truth the
-                    master-builder.
+                    Providing essential medical care, life-saving surgeries, and free prescription medicines to
+                    underprivileged families in need.
                   </p>
                   <div class="banner__content-cta cta">
-                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Discover More
+                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Donate Now
                       <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Get A
-                      Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Other
+                      Programs
+                      <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="banner-three__content">
-                  <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                    people</span>
+                  <span class="sub-title"><i class="icon-donation"></i>Dowry & Wedding Aid</span>
                   <h1 class="title-animation">
-                    We Are non <br />
-                    profit charity <span class="bottom-line">World</span>
-                    organization
+
+                    <span class="bottom-line">Marriage</span> Support for <span class="bottom-line">Poor</span> & Orphan
+                    Girls
                   </h1>
                   <p>
-                    Denouncing pleasure and praising pain was born and will
-                    give you saidul complete great explorer of the truth the
-                    master-builder.
+                    Helping destitute families and orphaned girls marry with dignity by covering wedding expenses and
+                    essential household items.
                   </p>
                   <div class="banner__content-cta cta">
-                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Discover More
+                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Donate Now
                       <i class="fa-solid fa-arrow-right"></i></a>
-                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Get A
-                      Quote <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Other
+                      Programs <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="banner-three__content">
+                  <span class="sub-title"><i class="icon-donation"></i>Orphan & Widow Care</span>
+                  <h1 class="title-animation">
+                    <span class="bottom-line">Support</span> for Orphans & Widows <span
+                      class="bottom-line">(Kafalat)</span>
+                  </h1>
+                  <p>
+                    Delivering monthly financial stipends, educational support, and basic necessities to empower
+                    vulnerable widows and orphaned children
+                  </p>
+                  <div class="banner__content-cta cta">
+                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Donate Now
+                      <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Other
+                      Programs <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="banner-three__content">
+                  <span class="sub-title"><i class="icon-donation"></i>Justice & Legal Aid</span>
+                  <h1 class="title-animation">
+                    Legal Aid & <br /><span class="bottom-line">Release</span> of Innocent Prisoners
+                  </h1>
+                  <p>
+                    Offering free legal representation and paying minor bail fines to secure the freedom of wrongfully
+                    detained and needy prisoners. </p>
+                  <div class="banner__content-cta cta">
+                    <a href="our-causes.html" aria-label="about us" title="about us" class="btn--tertiary">Donate Now
+                      <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="contact-us.html" aria-label="contact us" title="contact us" class="btn--primary">Other
+                      Programs <i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -665,13 +538,13 @@
             <div class="difference-three__thumb d-none d-lg-block">
               <div class="difference-three__thumb-inner">
                 <div class="thumb-lg" data-aos="fade-right" data-aos-duration="1000">
-                  <img src="assets/images/difference/thumb-lg-two.png" alt="Image" />
+                  <img src="assets/images/difference/thumb-lg-two.jpg" alt="Image" />
                 </div>
                 <div class="spade">
                   <img src="assets/images/difference/spade.png" alt="Image" class="base-img" />
                 </div>
                 <div class="thumb-sm" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                  <img src="assets/images/difference/thub-sm-two.png" alt="Image" />
+                  <img src="assets/images/difference/thub-sm-two.jpg" alt="Image" />
                 </div>
                 <div class="line">
                   <img src="assets/images/difference/line.png" alt="Image" />
@@ -685,44 +558,33 @@
                 <span class="sub-title"><i class="icon-donation"></i>Start donating poor
                   people</span>
                 <h2 class="title-animation">
-                  Donate <span>Support</span> to giving Make a Difference
+                  Support <span>Our Cause</span> to Make a Real Difference
                 </h2>
                 <p>
-                  Lorem Ipsum is simply dummy a of the printing and type
-                  setting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                  At Kifala Trust, we believe that every individual deserves a life of dignity, care, and hope. Our
+                  mission is to bridge the gap between those who can help and those in desperate need, providing
+                  essential support to the underprivileged and helpless.
                 </p>
               </div>
               <div class="differnce-quote">
                 <blockquote>
-                  <q><span>Lorem ipsum dolor</span> sit amet consectetur
-                    convallis ultrices sociis fermentum orci convallis</q>
+                  <q><span>Sahara Unka, Jo Be-Sahara Hain</span> Empowering lives and bringing positive change through
+                    dedicated community welfare, education, and support programs.</q>
                 </blockquote>
               </div>
               <div class="help__content-list">
                 <ul>
                   <li>
-                    <i class="fa-regular fa-circle-check"></i> Giving Hope,
-                    Changing Lives
+                    <i class="fa-regular fa-circle-check"></i> Free Medical Treatment & Medicines
                   </li>
                   <li>
-                    <i class="fa-regular fa-circle-check"></i> Empower Through
-                    Charity
+                    <i class="fa-regular fa-circle-check"></i> Marriage Support for Poor & Orphan Girls
                   </li>
                   <li>
-                    <i class="fa-regular fa-circle-check"></i> Together We Can
+                    <i class="fa-regular fa-circle-check"></i> Support for Orphans & Widows (Kafalat)
                   </li>
                   <li>
-                    <i class="fa-regular fa-circle-check"></i> Healing
-                    Communities
-                  </li>
-                  <li>
-                    <i class="fa-regular fa-circle-check"></i> Every Act
-                    Counts
-                  </li>
-                  <li>
-                    <i class="fa-regular fa-circle-check"></i> Compassion in
-                    Action
+                    <i class="fa-regular fa-circle-check"></i>Legal Aid & Release of Innocent Prisoners
                   </li>
                 </ul>
               </div>
@@ -734,8 +596,8 @@
                     <img src="assets/images/author-two.png" alt="Image" />
                   </div>
                   <div class="author-content">
-                    <span>Software Engineer</span>
-                    <h6>James Anderson</h6>
+                    <span>Founder of Kifala Trust</span>
+                    <h6>Israr Khan</h6>
                   </div>
                 </div>
               </div>
@@ -746,17 +608,18 @@
     </section>
     <!-- ==== / difference section end ==== -->
     <!-- ==== donation section start ==== -->
-    <section class="donation-future">
-      <div class="container">
+    <section class="donation-future" id="activeCampaigns">
+      <p v-if="loadingFPrograms">Loading featured program...</p>
+      <p v-else-if="errorFPrograms">{{ errorFPrograms || 'An error occurred while loading the featured program.' }}</p>
+      <div class="container" v-else>
         <div class="row gutter-40">
           <div class="col-12 col-lg-6 col-xl-7">
             <div class="donation-future__content">
               <div class="section__content" data-aos="fade-up" data-aos-duration="1000">
                 <span class="sub-title"><i class="icon-donation"></i>Start donating poor
                   people</span>
-                <h2 class="title-animation">
-                  Building A Better <span>Future</span>
-                  Together By Donations
+                <h2 class="">
+                  Our Active <span>Campaigns</span>
                 </h2>
                 <div class="video-btn-wrapper">
                   <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank" title="video Player"
@@ -768,34 +631,36 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 col-xl-5">
-            <div class="donation-future__thumb" data-background="assets/images/donation/thumb-bg.png" data-aos="fade-up"
-              data-aos-duration="1000" data-aos-delay="300">
-              <h4>Support for Food Expenses</h4>
+            <div class="donation-future__thumb" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <h4>{{ fprogram.program_title }}</h4>
               <div class="cause__progress progress-bar-single">
                 <div class="cause-progress__bar">
-                  <div class="progress-bar-wrapper" data-percent="60%">
+                  <div class="progress-bar-wrapper" :data-percent="parseFloat(fprogram.percent_donations)+'%'">
                     <div class="progress-bar">
                       <div class="progress-bar-percent">
-                        <span class="percent-value"></span>
+                        <span class="percent-value">{{ parseFloat(fprogram.percent_donations)+'%' }}</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="cause-progress__goal">
-                <p>Raised: <span class="raised">$8500</span></p>
-                <p>Goal: <span class="goal">$1,00,000</span></p>
+                <p>Raised: <span class="raised">PKR {{ parseFloat(fprogram.raise_donations).toLocaleString() || '0'
+                    }}</span></p>
+                <p>Goal: <span class="goal">PKR {{ parseFloat(fprogram.total_donations).toLocaleString() || '0'
+                    }}</span></p>
               </div>
               <hr />
-              <div class="made-amount">
+              <!-- <div class="made-amount">
                 <span class="donation-amount">$100</span>
                 <span class="donation-amount">$200</span>
                 <span class="donation-amount active">$500</span>
                 <span class="donation-amount">$1000</span>
                 <span class="donation-amount">$10000</span>
-              </div>
+              </div> -->
               <div class="cta">
-                <a href="donate-us.html" class="btn--primary">Donate Now <i class="icon-heart"></i></a>
+                <a :href="`donate-us.html?program_id=${fprogram.program_id}`" class="btn--primary">Donate Now <i
+                    class="icon-heart"></i></a>
               </div>
             </div>
           </div>
@@ -813,9 +678,9 @@
         <div class="row gutter-30 align-items-center">
           <div class="col-12 col-md-8 col-xl-7">
             <div class="section__header">
-              <span class="sub-title"><i class="icon-donation"></i>Start donating poor people</span>
+              <span class="sub-title"><i class="icon-donation"></i>Our Initiatives</span>
               <h2 class="title-animation">
-                Help & <span>donate</span> them when they're in need
+                Supporting <span>Communities</span> Through Our <span>Welfare Programs</span>
               </h2>
             </div>
           </div>
@@ -834,59 +699,56 @@
         <p v-if="loadingPrograms">Loading...</p>
         <p v-else-if="errorPrograms">Unable to load programs. Please try again later.</p>
         <div class="row" v-else>
-          <div class="col-12">
+          <div class="col-12" style="overflow-x: hidden;">
             <div class="cause__slider-wrapper">
-              <div class="cause__slider swiper">
+              <div class="cause__slider swiper programs-slider">
                 <div class="swiper-wrapper">
 
                   <div class="swiper-slide" v-for="program in programs" :key="program.id">
                     <div class="cause__slider-inner">
                       <div class="cause__slider-single">
                         <div class="thumb">
-                          <a href="cause-details.html">
-                            <img :src="program.image" alt="Image" />
+                          <a :href="`/donate-us.html?program_id=${program.program_id}`">
+                            <img :src="program.program_image" alt="Image" />
                           </a>
                           <div class="tag">
-                            <a href="our-causes.html">Health</a>
+                            <a href="javascript:void(0);">{{ program.program_category }}</a>
                           </div>
                         </div>
                         <div class="content">
                           <h6>
-                            <a href="cause-details.html">{{ program.title }}</a>
+                            <a :href="`/donate-us.html?program_id=${program.program_id}`">{{ program.program_title
+                              }}</a>
                           </h6>
-                          <p>
-                            {{ program.description }}
-                          </p>
                         </div>
                         <div class="cause__slider-cta">
                           <div class="cause__progress progress-bar-single">
                             <div class="cause-progress__intro">
                               <p>
                                 <span>Donation</span>
-                                <span class="percent-value">85%</span>
+                                <span class="percent-value">{{ program.percent_donations }}%</span>
                               </p>
                             </div>
                             <div class="cause-progress__bar">
-                              <div class="progress-bar-wrapper" data-percent="85%">
+                              <div class="progress-bar-wrapper" :data-percent="program.percent_donations + '%'">
                                 <div class="progress-bar">
                                   <div class="progress-bar-percent"></div>
                                 </div>
                               </div>
                             </div>
                             <div class="cause-progress__goal">
-                              <p>Raised: <span class="raised">$8500</span></p>
-                              <p>Goal: <span class="goal">$1,0000</span></p>
+                              <p>Raised: <span class="raised">PKR {{ program.raise_donations }}</span></p>
+                              <p>Goal: <span class="goal">PKR {{ program.total_donations }}</span></p>
                             </div>
                           </div>
                           <div class="cause__cta">
-                            <a href="donate-us.html" aria-label="donate now" title="donate now"
-                              class="btn--secondary">Donate Now</a>
+                            <a :href="`/donate-us.html?program_id=${program.program_id}`" aria-label="donate now"
+                              title="donate now" class="btn--secondary">Donate Now</a>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -1104,128 +966,7 @@
       </div>
     </section>
     <!-- ==== / team section end ==== -->
-    <!-- ==== help section start ==== -->
-    <section class="help-three">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="help-three__inner">
-              <div class="section__header-secondary" data-aos="fade-up" data-aos-duration="1000">
-                <div class="row gutter-30 align-items-center">
-                  <div class="col-12 col-lg-8 col-xxl-7">
-                    <div class="section__header mb-0">
-                      <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                        people</span>
-                      <h2 class="title-animation">
-                        Helping each other can make <span>world</span> better
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="col-12 col-lg-4 col-xxl-5">
-                    <div class="help-cta">
-                      <a href="about-us.html" aria-label="our team" title="our team" class="btn--primary">More About
-                        Us<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="help-three__wrapper">
-                <div class="row gutter-60">
-                  <div class="col-12 col-md-6 col-xxl-3">
-                    <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000">
-                      <div class="help-three__thumb">
-                        <div class="thumb">
-                          <i class="icon-pack"></i>
-                        </div>
-                        <div class="help-three__tag">
-                          <h6>Step - 01</h6>
-                        </div>
-                      </div>
-                      <div class="help-three__content">
-                        <h6>Select Services</h6>
-                        <p>
-                          Pellentesque habitant morbi trist fames ac turp
-                          egestas. Aliquam enim feugiat mattis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6 col-xxl-3">
-                    <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                      <div class="help-three__thumb">
-                        <div class="thumb">
-                          <i class="icon-credit-card"></i>
-                        </div>
-                        <div class="help-three__tag">
-                          <h6>Step - 02</h6>
-                        </div>
-                      </div>
-                      <div class="help-three__content">
-                        <h6>Percel Information</h6>
-                        <p>
-                          Pellentesque habitant morbi trist fames ac turp
-                          egestas. Aliquam enim feugiat mattis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6 col-xxl-3">
-                    <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                      <div class="help-three__thumb">
-                        <div class="thumb">
-                          <i class="icon-ship"></i>
-                        </div>
-                        <div class="help-three__tag">
-                          <h6>Step - 03</h6>
-                        </div>
-                      </div>
-                      <div class="help-three__content">
-                        <h6>Transportation</h6>
-                        <p>
-                          Pellentesque habitant morbi trist fames ac turp
-                          egestas. Aliquam enim feugiat mattis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-6 col-xxl-3">
-                    <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
-                      <div class="help-three__thumb">
-                        <div class="thumb">
-                          <i class="icon-truck"></i>
-                        </div>
-                        <div class="help-three__tag">
-                          <h6>Step - 04</h6>
-                        </div>
-                      </div>
-                      <div class="help-three__content">
-                        <h6>Takeover Products</h6>
-                        <p>
-                          Pellentesque habitant morbi trist fames ac turp
-                          egestas. Aliquam enim feugiat mattis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <img src="assets/images/v-line.png" alt="Image" class="v-line d-none d-xxl-block" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="help-three-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-        <img src="assets/images/bg-one.png" alt="Image" class="bg-help" />
-        <div class="poor-boy">
-          <img src="assets/images/poor-boy.png" alt="Image" class="poor" />
-          <img src="assets/images/shape-three.png" alt="Image" class="shape" />
-        </div>
-        <div class="parasuit">
-          <img src="assets/images/parasuit.png" alt="Image" />
-        </div>
-      </div>
-    </section>
-    <!-- ==== / help section end ==== -->
+
     <!-- ==== partner section start ==== -->
     <div class="partner">
       <div class="container">
@@ -1348,7 +1089,7 @@
         </div>
       </div>
       <div class="poor">
-        <img src="assets/images/poor-two.png" alt="Image" class="parallax-image" />
+        <img src="assets/images/poor-two.jpg" alt="Image" class="parallax-image" />
       </div>
       <div class="shape-left" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
         <img src="assets/images/cta/shape-left.png" alt="Image" class="base-img" />
@@ -1594,121 +1335,7 @@
       </div>
     </section>
     <!-- ==== / testimonial section end ==== -->
-    <!-- ==== faq section start ==== -->
-    <section class="faq" id="faqSection">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-lg-8 col-xl-6">
-            <div class="faq__content">
-              <div class="section__content" data-aos="fade-up" data-aos-duration="1000">
-                <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                  people</span>
-                <h2 class="title-animation">
-                  Frequently <span>Asked</span>
-                  Questions
-                </h2>
-              </div>
-              <div class="faq__content-inner cta" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <div class="accordion" id="accordion">
-                  <div class="accordion-item">
-                    <h6 class="accordion-header" id="headingOne">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        What kind of recipes can I find on your website?
-                      </button>
-                    </h6>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                      data-bs-parent="#accordion">
-                      <div class="accordion-body">
-                        <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h6 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Are the recipes suitable for beginners?
-                      </button>
-                    </h6>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                      data-bs-parent="#accordion">
-                      <div class="accordion-body">
-                        <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h6 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Do you offer cooking tips and techniques?
-                      </button>
-                    </h6>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                      data-bs-parent="#accordion">
-                      <div class="accordion-body">
-                        <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h6 class="accordion-header" id="headingFour">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        How frequently do you update your recipe collection?
-                      </button>
-                    </h6>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                      data-bs-parent="#accordion">
-                      <div class="accordion-body">
-                        <p>
-                          It is a long established fact that a reader will be
-                          distracted by the readable the a content of a page
-                          when looking at its layout. Many desktop publishing
-                          packages and web page editors.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4 col-xl-5 offset-xl-1">
-            <div class="faq__thumb d-none d-lg-block">
-              <div class="faq__thumb-inner">
-                <div class="thumb-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                  <img src="assets/images/faq/thumb-lg.png" alt="Image" />
-                </div>
-                <div class="thumb-sm" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                  <img src="assets/images/faq/thumb-sm.png" alt="Image" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="shape d-none d-lg-block">
-        <img src="assets/images/faq/shape.png" alt="Image" />
-      </div>
-    </section>
-    <!-- ==== / faq section end ==== -->
+
     <!-- ==== event section start ==== -->
     <section class="blog">
       <div class="container">
@@ -1835,31 +1462,64 @@
     </section>
     <!-- ==== / event section end ==== -->
     <!-- ==== image gallery section start ==== -->
-    <div class="gallery" id="gallery">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-xl-7">
-          <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000">
-            <span class="sub-title"><i class="icon-donation"></i>Some Smiles we collected</span>
-            <h2 class="title-animation">
-              Our <span>Gallery</span>
-              Smiles
-            </h2>
-          </div>
-        </div>
-      </div>
-      <p v-if="loadingGallery">Loading...</p>
-      <p v-else-if="errorGallery">Unable to load gallery. Please try again later.</p>
-      <div class="gallery__inner" v-else>
-        <div class="gallery__slider">
-          <div class="gallery__single" v-for="slide in gallery" :key="slide.id">
-            <img :src="slide.media_url" :alt="slide.title">
-            <a href="index.html">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-xl-7">
+        <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000">
+          <span class="sub-title"><i class="icon-donation"></i>Some Smiles we collected</span>
+          <h2 class="title-animation">
+            Our <span>Gallery</span>
+            Smiles
+          </h2>
         </div>
       </div>
     </div>
+    <section class="cause-two" id="gallery">
+      <p v-if="loadingGallery">Loading...</p>
+      <p v-else-if="errorGallery">Unable to load gallery. Please try again later.</p>
+      <div class="container-fluid" v-else>
+        <div class="row">
+          <div class="col-12">
+            <div class="cause-two__inner">
+              <div class="slider-navigation" v-for="slide in gallery" :key="slide.id">
+                <button type="button" aria-label="prev slide" title="prev slide" class="prev-cause-two slider-btn">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button type="button" aria-label="next slide" title="next slide"
+                  class="next-cause-two slider-btn slider-btn-next">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <div class="cause-two__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide" v-for="slide in gallery" :key="slide.id">
+                    <div class="cause-two__slider-single">
+                      <div class="cause-thumb">
+                        <img :src="slide.media_url" :alt="slide.title" />
+                        <a :href="slide.link" target="_blank">
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cause-two__content-slider swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" v-for="slide in gallery" :key="slide.id">
+                  <div class="cause-content">
+                    <h4>{{ slide.title }}</h4>
+                    <p>{{ slide.description }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ==== / image gallery section end ==== -->
     <!-- ==== contact section start ==== -->
     <section class="contact" id="contactSection">
@@ -1875,32 +1535,46 @@
                   For donation!
                 </h2>
               </div>
-              <div class="contact__form cta" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <form action="#" method="post">
+              <div class="contact__form cta" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                id="contactFormApp">
+                <form action="https://kifalatrust.org/admin/kifala_api.php?action=submit_enquiry" method="post"
+                  @submit.prevent="submitContact">
                   <div class="input-group">
                     <div class="input-single">
-                      <input type="email" name="contact-email" id="contactEmail" placeholder="your email..." />
+                      <input type="text" name="name" id="contactName" v-model="contactBody.name"
+                        placeholder="Enter Name" required />
+                      <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-single">
+                      <input type="email" name="email" id="contactEmail" v-model="contactBody.email"
+                        placeholder="Enter Email" required />
                       <i class="fa-solid fa-paper-plane"></i>
                     </div>
                     <div class="input-single">
-                      <input type="text" name="contact-number" id="contactNumber" placeholder="your phone..." />
+                      <input type="text" name="phone" id="contactPhone" v-model="contactBody.phone"
+                        placeholder="Enter Phone" required />
                       <i class="fa-solid fa-phone"></i>
                     </div>
                   </div>
                   <div class="input-single">
-                    <input type="text" name="contact-address" id="contactAddress" placeholder="your address..." />
-                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" name="subject" id="contactSubject" v-model="contactBody.subject"
+                      placeholder="Enter Subject" />
+                    <i class="fa-solid fa-file"></i>
                   </div>
                   <div class="input-single alter-input">
-                    <textarea name="contact-message" id="contactMessage" placeholder="your message..."></textarea>
-                    <i class="fa-solid fa-envelope"></i>
+                    <textarea name="message" id="contactMessage" v-model="contactBody.message"
+                      placeholder="Your Message..." required></textarea>
+                    <i class="fa-solid fa-comments"></i>
                   </div>
                   <div class="form-cta">
-                    <button type="submit" aria-label="submit message" title="submit message" class="btn--primary">
-                      Get A Quote <i class="fa-solid fa-arrow-right"></i>
+                    <button type="submit" aria-label="submit message" :disabled="isSubmittingContact"
+                      title="submit message" class="btn--primary">
+                      Send Message <i class="fa-solid fa-arrow-right"></i>
                     </button>
                   </div>
                 </form>
+                <p role="status" class="ms-1 text-white" aria-live="polite">{{ contactStatus }}</p>
+
               </div>
             </div>
           </div>
@@ -1926,14 +1600,17 @@
             </div>
           </div>
           <div class="col-12 col-lg-5 col-xxl-5 offset-xxl-1">
-            <div class="footer-two__newsletter-form">
-              <form action="#" method="post">
-                <input type="email" required name="subscribe-email" id="subscribeEmail" placeholder="Enter Email" />
+            <div id="newsletterFormApp" class="footer-two__newsletter-form">
+              <form action="https://kifalatrust.org/admin/kifala_api.php?action=subscribe_newsletter" method="post"
+                @submit.prevent="submitNewsletter">
+                <input type="email" required name="email" id="subscribeEmail" v-model="newsletterEmail"
+                  placeholder="Enter Email" />
                 <button type="submit" aria-label="subscribe to our newsletter" title="subscribe to our newsletter"
-                  class="btn--primary">
+                  class="btn--primary" :disabled="isSubmittingEmail">
                   <i class="fa-solid fa-paper-plane"></i>
                 </button>
               </form>
+              <p role="status" class="ms-1" aria-live="polite">{{ newsletterStatus }}</p>
             </div>
           </div>
         </div>
@@ -1991,13 +1668,13 @@
                     <a href="blog-list.html"><i class="fa-solid fa-arrow-right"></i>Our News</a>
                   </li>
                   <li>
-                    <a href="our-causes.html"><i class="fa-solid fa-arrow-right"></i>Our Campaign</a>
+                    <a href="our-programs.html"><i class="fa-solid fa-arrow-right"></i>Our Programs</a>
                   </li>
                   <li>
                     <a href="faq.html"><i class="fa-solid fa-arrow-right"></i>FAQ</a>
                   </li>
                   <li>
-                    <a href="contact-us.html"><i class="fa-solid fa-arrow-right"></i>Get A Quote</a>
+                    <a href="contact-us.html"><i class="fa-solid fa-arrow-right"></i>Our Programs</a>
                   </li>
                 </ul>
               </div>
@@ -2017,14 +1694,14 @@
               <div class="footer-two__widget-content">
                 <ul>
                   <li>
-                    <a href="our-causes.html"><i class="fa-solid fa-arrow-right"></i>Our Causes</a>
+                    <a href="our-programs.html"><i class="fa-solid fa-arrow-right"></i>Our Programs</a>
                   </li>
                   <li>
                     <a href="events.html"><i class="fa-solid fa-arrow-right"></i>Education
                       Support</a>
                   </li>
                   <li>
-                    <a href="our-causes.html"><i class="fa-solid fa-arrow-right"></i>Our Campaign</a>
+                    <a href="our-programs.html"><i class="fa-solid fa-arrow-right"></i>Our Programs</a>
                   </li>
                   <li>
                     <a href="our-causes.html"><i class="fa-solid fa-arrow-right"></i>Food Support</a>
@@ -2059,7 +1736,7 @@
                     <a href="tel:03212398495"><i class="fa-solid fa-phone"></i>03212398495</a>
                   </li>
                   <li>
-                    <a href="mailto:support@kifalatrust.com"><i
+                    <a href="mailto:support@kifalatrust.com" style="text-transform: lowercase;"><i
                         class="fa-regular fa-envelope"></i>support@kifalatrust.com</a>
                   </li>
                 </ul>
@@ -2075,7 +1752,7 @@
               <div class="footer-two__copyright-inner text-center text-lg-start">
                 <p>
                   Copyright &copy; <span id="copyrightYear"></span>
-                  <a href="index.html">&nbsp;Kifala Trust</a>. All rights
+                  <a href="index.html">&nbsp;Kifala Trust</a> . All rights
                   reserved.
                 </p>
               </div>
@@ -2149,33 +1826,136 @@
     <script src="assets/js/custom.js"></script>
 
     <script type="module">
-      import { usePrograms, useGallery } from './hooks/programs.js'
+      import { usePrograms, useGallery, useNewsletterApis, useFeaturedProgram, useContactApis } from './hooks/programs.js'
 
-      const { createApp } = Vue
+      const { createApp, computed, reactive, ref, watch, nextTick } = Vue
+      const mountedApps = window.kifalaApiApps || (window.kifalaApiApps = new WeakMap())
 
-      createApp({
-        setup() {
-          const { programs, loading: loadingPrograms, error: errorPrograms, refresh: refreshPrograms } = usePrograms()
-          return {
-            programs,
-            loadingPrograms,
-            errorPrograms,
-            refreshPrograms,
-          }
+      function mountApiApps() {
+        const contactFormElement = document.querySelector('#contactFormApp')
+        if (contactFormElement && !mountedApps.has(contactFormElement)) {
+          const app = createApp({
+            setup() {
+
+              const {
+                contactBody,
+                contactStatus,
+                isSubmittingContact,
+                submitContact,
+              } = useContactApis();
+
+              return {
+                contactBody,
+                contactStatus,
+                isSubmittingContact,
+                submitContact,
+              }
+
+            }
+          })
+          mountedApps.set(contactFormElement, app)
+          app.mount(contactFormElement)
         }
-      }).mount('#causeSection')
 
-      createApp({
-        setup() {
-          const { gallery, loading: loadingGallery, error: errorGallery, refresh: refreshGallery } = useGallery()
-          return {
-            gallery,
-            loadingGallery,
-            errorGallery,
-            refreshGallery
-          }
+        const newsletterFormElement = document.querySelector('#newsletterFormApp')
+        if (newsletterFormElement && !mountedApps.has(newsletterFormElement)) {
+          const app = createApp({
+            setup() {
+
+              const {
+                newsletterEmail,
+                newsletterStatus,
+                isSubmitting: isSubmittingEmail,
+                submitNewsletter,
+              } = useNewsletterApis();
+
+              return {
+                newsletterEmail,
+                newsletterStatus,
+                isSubmittingEmail,
+                submitNewsletter,
+              }
+
+            }
+          })
+          mountedApps.set(newsletterFormElement, app)
+          app.mount(newsletterFormElement)
         }
-      }).mount('#gallery')
+
+
+        const causeSection = document.querySelector('#causeSection')
+        if (causeSection && !mountedApps.has(causeSection)) {
+          const app = createApp({
+            setup() {
+              const { programs, loading: loadingPrograms, error: errorPrograms, refresh: refreshPrograms } = usePrograms()
+              watch(programs, async (availablePrograms) => {
+                if (!availablePrograms.length) return
+                await nextTick()
+                window.initializeCauseSlider()
+              })
+              return {
+                programs,
+                loadingPrograms,
+                errorPrograms,
+                refreshPrograms,
+              }
+            }
+          })
+          mountedApps.set(causeSection, app)
+          app.mount(causeSection)
+        }
+
+        const fSection = document.querySelector('#activeCampaigns')
+        if (fSection && !mountedApps.has(fSection)) {
+          const app = createApp({
+            setup() {
+              const { program: fprogram, loading: loadingFPrograms, error: errorFPrograms, refresh: refreshFPrograms } = useFeaturedProgram()
+              watch(fprogram, async (availableProgram) => {
+                if (!availableProgram.program_id) return
+                await nextTick()
+                window.AOS.refreshHard()
+              })
+              return {
+                fprogram,
+                loadingFPrograms,
+                errorFPrograms,
+                refreshFPrograms,
+              }
+            }
+          })
+          mountedApps.set(fSection, app)
+          app.mount(fSection)
+        }
+
+
+        const galleryElement = document.querySelector('#gallery')
+        if (galleryElement && !mountedApps.has(galleryElement)) {
+          const app = createApp({
+            setup() {
+              const { gallery: singleGallery, loading: loadingGallery, error: errorGallery, refresh: refreshGallery } = useGallery()
+
+              const gallery = computed(() => {
+                return [...singleGallery.value, ...singleGallery.value];
+              });
+              return {
+                gallery,
+                loadingGallery,
+                errorGallery,
+                refreshGallery
+              }
+            }
+          })
+          mountedApps.set(galleryElement, app)
+          app.mount(galleryElement)
+        }
+      }
+
+      if (!window.kifalaApiTurboListener) {
+        window.kifalaApiTurboListener = true
+        document.addEventListener('turbo:load', mountApiApps)
+      }
+
+      mountApiApps()
     </script>
 </body>
 

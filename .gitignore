@@ -15,6 +15,7 @@ dist
 dist-ssr
 coverage
 *.local
+postman/
 
 # Editor directories and files
 .vscode/*
